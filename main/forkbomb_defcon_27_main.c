@@ -1,11 +1,3 @@
-/* Hello World Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -21,10 +13,10 @@
 
 #define I2C_MASTER_SCL_IO 22               /*!< gpio number for I2C master clock */
 #define I2C_MASTER_SDA_IO 23               /*!< gpio number for I2C master data  */
-#define I2C_MASTER_NUM 0 /*!< I2C port number for master dev */
-#define I2C_MASTER_FREQ_HZ 100000        /*!< I2C master clock frequency */
-#define I2C_MASTER_TX_BUF_LEN (2 * 255)             /*!< I2C slave tx buffer size */
-#define I2C_MASTER_RX_BUF_LEN (2 * 255)              /*!< I2C slave rx buffer size */
+#define I2C_MASTER_NUM 0                   /*!< I2C port number for master dev */
+#define I2C_MASTER_FREQ_HZ 100000          /*!< I2C master clock frequency */
+#define I2C_MASTER_TX_BUF_LEN (2 * 255)    /*!< I2C slave tx buffer size */
+#define I2C_MASTER_RX_BUF_LEN (2 * 255)    /*!< I2C slave rx buffer size */
 
 
 static void gpio_task(void* arg)
@@ -90,7 +82,6 @@ void app_main()
                               I2C_MASTER_RX_BUF_LEN, 0);
 
     printf("Hello world!\n");
-
 
     xTaskCreate(gpio_task, "gpio_task", 2048, NULL, 10, NULL);
 }
