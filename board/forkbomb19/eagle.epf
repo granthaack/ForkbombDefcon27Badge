@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 01 03"
+Version="09 02 02"
 Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
@@ -360,6 +360,9 @@ UsedLibrary="/home/grant/EAGLE/projects/tiny_stella/tiny_stella.lbr"
 UsedLibrary="/home/grant/EAGLE/projects/upvote/upvote.lbr"
 UsedLibrary="/home/grant/EAGLE/libraries/Adafruit-Eagle-Library/adafruit.lbr"
 UsedLibrary="forkbomb19.lbr"
+UsedLibrary="/home/grant/Downloads/Adafruit-AMG8833-Breakout-PCB-master/AMG8833_REV-B.lbr"
+UsedLibrary="/home/grant/Downloads/Adafruit-HUZZAH32-ESP32-Feather-PCB-master/Adafruit HUZZAH32 ESP32 Feather.lbr"
+UsedLibrary="/home/grant/Downloads/TLC59116.lbr"
 
 [Win_1]
 Type="Control Panel"

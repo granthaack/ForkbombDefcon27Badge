@@ -19985,44 +19985,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 </packages>
 </library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SMB" urn="urn:adsk.eagle:footprint:43181/1" library_version="2">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="-2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="2.2606" y1="-1.905" x2="2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="0.193" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.83" y1="0" x2="0.193" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.193" y1="-1" x2="0.193" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.159" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
-<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
-<rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMB" urn="urn:adsk.eagle:package:43404/2" type="model" library_version="2">
-<description>DIODE</description>
-<packageinstances>
-<packageinstance name="SMB"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20450,10 +20412,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$17" library="defcon" package="CL-SB-12A-02T" value="CL-SB-12A-02T" x="-44.2468" y="-116.3574" smashed="yes"/>
 <element name="U$22" library="defcon" package="54_BATTERY_CLIP" value="54_BATTERY_CLIP" x="-29.591" y="-90.7034" smashed="yes"/>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="MBRS130LT3" x="-59.182" y="-123.444" smashed="yes">
-<attribute name="NAME" x="-61.341" y="-121.285" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-61.341" y="-126.873" size="1.27" layer="27"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -20960,8 +20918,12 @@ design rules under a new name.</description>
 <contactref element="U5" pad="P$14"/>
 <contactref element="U5" pad="P$15"/>
 <contactref element="U5" pad="P$16"/>
-<contactref element="D1" pad="C"/>
-<wire x1="-45.3928" y1="-98.4758" x2="-61.382" y2="-123.444" width="0" layer="19" extent="1-1"/>
+<contactref element="U$22" pad="P$2"/>
+<contactref element="U$22" pad="P$3"/>
+<contactref element="U$22" pad="P$1"/>
+<wire x1="-53.591" y1="-93.2434" x2="-61.211" y2="-90.7034" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.591" y1="-88.1634" x2="-53.591" y2="-93.2434" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.3928" y1="-98.4758" x2="-53.591" y2="-93.2434" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.5826" y1="-96.6124" x2="-45.3928" y2="-98.4758" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.6176" y1="-97.5774" x2="-37.5826" y2="-96.6124" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.6176" y1="-98.0774" x2="-36.6176" y2="-97.5774" width="0" layer="19" extent="1-1"/>
@@ -20980,15 +20942,6 @@ design rules under a new name.</description>
 <contactref element="U5" pad="P$12"/>
 <contactref element="R21" pad="2"/>
 <wire x1="-36.6176" y1="-99.0774" x2="-41.9514" y2="-111.0234" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$30">
-<contactref element="D1" pad="A"/>
-<contactref element="U$22" pad="P$2"/>
-<contactref element="U$22" pad="P$3"/>
-<contactref element="U$22" pad="P$1"/>
-<wire x1="-53.591" y1="-93.2434" x2="-56.982" y2="-123.444" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.591" y1="-88.1634" x2="-53.591" y2="-93.2434" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.211" y1="-90.7034" x2="-53.591" y2="-93.2434" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
