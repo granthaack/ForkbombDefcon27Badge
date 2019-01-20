@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1606,6 +1606,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="-42" y1="-10" x2="-42" y2="10" width="0.8128" layer="21"/>
 <text x="-42" y="-11" size="1.27" layer="21" font="vector" ratio="20" align="top-left">&gt;NAME</text>
 <text x="-42" y="-13" size="1.27" layer="21" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<text x="-44.45" y="6.35" size="2.54" layer="21" font="vector" ratio="20" align="center">+</text>
+<text x="44.45" y="6.35" size="2.54" layer="21" font="vector" ratio="20" align="center">-</text>
 </package>
 </packages>
 <symbols>
@@ -1910,6 +1912,11 @@ Op. Temp: -40~85°C</text>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <pin name="POS" x="0" y="2.54" length="middle" rot="R90"/>
 <pin name="NEG" x="0" y="-5.08" length="middle" rot="R270"/>
+</symbol>
+<symbol name="CAPACITIVE_TOUCH">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<pin name="TXD1" x="10.16" y="0" length="middle" rot="R180"/>
+<text x="-5.08" y="-7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2326,6 +2333,22 @@ Op. Temp: -40~85°C</text>
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATT_18650">
+<gates>
+<gate name="G$1" symbol="BATT_18650" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BATT_18650_SMD">
+<connects>
+<connect gate="G$1" pin="NEG" pad="2"/>
+<connect gate="G$1" pin="POS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
