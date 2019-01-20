@@ -1609,9 +1609,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <text x="-44.45" y="6.35" size="2.54" layer="21" font="vector" ratio="20" align="center">+</text>
 <text x="44.45" y="6.35" size="2.54" layer="21" font="vector" ratio="20" align="center">-</text>
 </package>
-<package name="CAP_T_5MM">
-<smd name="1" x="0" y="0" dx="12.7" dy="12.7" layer="1" roundness="100"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ESP-WROOM-03">
