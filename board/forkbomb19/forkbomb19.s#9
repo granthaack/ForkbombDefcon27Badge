@@ -28108,9 +28108,9 @@ w/2A current</text>
 <instance part="+3V11" gate="G$1" x="-104.14" y="50.8" smashed="yes">
 <attribute name="VALUE" x="-106.68" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CN1" gate="G$1" x="-60.96" y="-68.58" smashed="yes">
-<attribute name="NAME" x="-67.31" y="-62.865" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-67.31" y="-73.66" size="1.778" layer="96"/>
+<instance part="CN1" gate="G$1" x="-78.74" y="-66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="-72.39" y="-71.755" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-72.39" y="-60.96" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -28429,8 +28429,8 @@ w/2A current</text>
 <segment>
 <wire x1="-68.58" y1="-68.58" x2="-68.58" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="CN1" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="-68.58" x2="-68.58" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="-68.58" x2="-68.58" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LOGO_B" gate="G$1" pin="C"/>
@@ -29021,8 +29021,8 @@ w/2A current</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="-73.66" y1="-43.18" x2="-68.58" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-43.18" x2="-68.58" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="-66.04" x2="-68.58" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="-66.04" x2="-68.58" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
