@@ -20024,6 +20024,9 @@ Source: Samtec TSW.pdf</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="55.88" y1="-27.94" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="S1"/>
+<pinref part="SW1" gate="G$1" pin="S"/>
+<wire x1="48.26" y1="-25.4" x2="48.26" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="48.26" y="-27.94"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -20136,6 +20139,9 @@ Source: Samtec TSW.pdf</description>
 <pinref part="U1" gate="G$1" pin="IO34"/>
 <wire x1="17.78" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="P1"/>
+<pinref part="SW1" gate="G$1" pin="P"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="38.1" y="-27.94"/>
 </segment>
 </net>
 <net name="N$4" class="0">
