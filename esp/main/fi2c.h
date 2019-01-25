@@ -1,6 +1,5 @@
-
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef FI2C_H
+#define FI2C_H
 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
@@ -24,7 +23,7 @@
 #define ACK_CHECK_EN 0x1
 
 //Read a single i2c register from a slave device
-esp_err_t read_i2c_reg(uint8_t slave_addr, uint8_t slave_reg, uint8_t* dest);
+esp_err_t i2c_read_reg(uint8_t slave_addr, uint8_t slave_reg, uint8_t* dest);
 //Initialize i2c with our defined constants
 void init_i2c();
 

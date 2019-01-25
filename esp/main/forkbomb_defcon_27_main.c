@@ -15,7 +15,7 @@ static void gpio_task(void* arg)
         uint8_t buf[127];
 
         for(uint8_t i = 0; i < 127; i++) {
-          read_i2c_reg(0x69, 0x80 + i, buf + i);
+          i2c_read_reg(0x69, 0x80 + i, buf + i);
         }
 
         for(uint8_t i = 0; i < 8; i++) {

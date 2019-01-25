@@ -1,6 +1,6 @@
 #include "fi2c.h"
 
-esp_err_t read_i2c_reg(uint8_t slave_addr, uint8_t slave_reg, uint8_t* dest){
+esp_err_t i2c_read_reg(uint8_t slave_addr, uint8_t slave_reg, uint8_t* dest){
   //Init the i2c handle
   i2c_cmd_handle_t cmd = i2c_cmd_link_create();
   //Queue the START command
