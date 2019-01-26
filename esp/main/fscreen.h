@@ -1,6 +1,16 @@
 #ifndef FSCREEN_H
 #define FSCREEN_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_system.h"
+#include "driver/spi_master.h"
+#include "soc/gpio_struct.h"
+#include "driver/gpio.h"
+
 #define SCREEN_WIDTH 320
 #define SCREEN_HEIGHT 240
 
@@ -24,6 +34,14 @@ void lcd_spi_pre_transfer_callback(spi_transaction_t *t);
 void lcd_screen_init(spi_device_handle_t spi);
 //Initialize the SPI bus for the LCD
 spi_device_handle_t lcd_spi_init();
+//Send the frame buffer to the LCD for drawing
+static void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
+
+typedef struct {
+    uint8_t cmd;
+    uint8_t data[16];
+    uint8_t databytes; //No of data in data; bit 7 = delay after set; 0xFF = end of cmds.
+} lcd_init_cmd_t;
 
 //Commands to initialize the ILI9341 Screen
 DRAM_ATTR static const lcd_init_cmd_t ili_init_cmds[]={
@@ -55,7 +73,7 @@ DRAM_ATTR static const lcd_init_cmd_t ili_init_cmds[]={
     {0xC5, {0x35, 0x3E}, 2},
     /* VCOM control 2, VCOMH=VMH-2, VCOML=VML-2 */
     {0xC7, {0xBE}, 1},
-    /* Memory access contorl, MX=MY=0, MV=1, ML=0, BGR=1, MH=0 */
+    /* Memory access control, MX=MY=0, MV=1, ML=0, BGR=1, MH=0 */
     {0x36, {0x28}, 1},
     /* Pixel format, 16bits/pixel for RGB/MCU interface */
     {0x3A, {0x55}, 1},
