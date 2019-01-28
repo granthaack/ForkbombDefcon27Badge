@@ -35,7 +35,7 @@ void lcd_screen_init(spi_device_handle_t spi);
 //Initialize the SPI bus for the LCD
 spi_device_handle_t lcd_spi_init();
 //Send the frame buffer to the LCD for drawing
-static void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
+void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
 
 typedef struct {
     uint8_t cmd;

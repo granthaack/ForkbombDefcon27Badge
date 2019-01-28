@@ -94,7 +94,8 @@ spi_device_handle_t lcd_spi_init(){
     sent faster (compared to calling spi_device_transmit several times) and free
     the CPU to do other things
 */
-static void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff)esp_err_t ret;
+void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff){
+    esp_err_t ret;
     uint8_t x;
     //Transaction descriptors, 6 of them. Declared static so they're not allocated on the stack; we need this memory even when this
     //function is finished because the SPI driver needs access to it even while we're already calculating the next line.
