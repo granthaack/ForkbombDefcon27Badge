@@ -10,7 +10,9 @@
 #include "fi2c.h"
 #include "fscreen.h"
 
-static void gpio_task(void* arg)
+#define SCALE_FACTOR 30
+
+static void lcd_loop(void* arg)
 {
     for(;;) {
         uint8_t buf[127];
@@ -61,7 +63,7 @@ void app_main()
       fbuff = esp_random();
     }
 
-    xTaskCreate(gpio_task, "gpio_task", 2048, NULL, 10, NULL);
+    xTaskCreate(lcd_loop, "lcd_loop", 2048, NULL, 10, NULL);
     //This is bad but I'm tired
     while(1){
       lcd_send_fbuff(screen_spi, &fbuff);
