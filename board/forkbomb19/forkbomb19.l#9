@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1963,6 +1963,30 @@ Op. Temp: -40~85°C</text>
 <text x="0" y="2.54" size="1.778" layer="94" align="center">LM2623</text>
 <text x="0" y="0" size="1.778" layer="94" align="center">U$1</text>
 <pin name="SW" x="-22.86" y="7.62" length="middle"/>
+</symbol>
+<symbol name="SPI_TFT">
+<pin name="GND1" x="-5.08" y="20.32" length="middle"/>
+<pin name="!RESET" x="-5.08" y="17.78" length="middle"/>
+<pin name="SCK" x="-5.08" y="15.24" length="middle"/>
+<pin name="D/C" x="-5.08" y="12.7" length="middle"/>
+<pin name="!CS" x="-5.08" y="10.16" length="middle"/>
+<pin name="MOSI" x="-5.08" y="7.62" length="middle"/>
+<pin name="MISO" x="-5.08" y="5.08" length="middle"/>
+<pin name="GND2" x="-5.08" y="2.54" length="middle"/>
+<pin name="VCC" x="-5.08" y="0" length="middle"/>
+<pin name="LED_VCC" x="-5.08" y="-2.54" length="middle"/>
+<pin name="LED_CATH1" x="-5.08" y="-5.08" length="middle"/>
+<pin name="LED_CATH2" x="-5.08" y="-7.62" length="middle"/>
+<pin name="LED_CATH3" x="-5.08" y="-10.16" length="middle"/>
+<pin name="LED_CATH4" x="-5.08" y="-12.7" length="middle"/>
+<pin name="XL" x="-5.08" y="-15.24" length="middle"/>
+<pin name="YU" x="-5.08" y="-17.78" length="middle"/>
+<pin name="XR" x="-5.08" y="-20.32" length="middle"/>
+<pin name="YD" x="-5.08" y="-22.86" length="middle"/>
+<wire x1="0" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="0" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="-27.94" x2="0" y2="25.4" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
