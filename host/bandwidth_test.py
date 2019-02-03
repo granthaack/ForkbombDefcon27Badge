@@ -4,7 +4,7 @@ import time
 import signal
 
 PORT = 3333
-SIZE = 1024
+SIZE = 1
 
 
 class ParentTsock:
@@ -61,14 +61,12 @@ class SockThread(Thread):
         Push data to an ESP32 and measure the bandwidth
         :return:
         """
-        buff = []
-        for i in range(0, SIZE):
-            buff.append(b"A")
+        buff = b"A" * SIZE
         while not self.stop_event.is_set():
             timestamp = time.time()
             ret = self.sock.sendall(buff)
             if ret is None:
-                print("Speed: {} bytes per second on connection to {}".format(SIZE/(time.time() - timestamp), self.addr))
+                print("Speed: {} bytes per second on connection to {}".format(SIZE/(time.time() - timestamp), self.addr[0]))
             else:
                 print("Connection error: sock.sendall() returned {} instead of None".format(ret))
 
@@ -81,7 +79,7 @@ class SockThread(Thread):
 
 
 def main():
-    sock = ParentTsock("192.168.1.18")
+    sock = ParentTsock("192.168.1.25")
     sock.listen_sock()
 
 
