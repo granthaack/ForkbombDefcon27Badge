@@ -9,43 +9,24 @@
 
 #include "fi2c.h"
 #include "fscreen.h"
+#include "ftherm.h"
 
 #define SCALE_FACTOR 30
 
 static void lcd_loop(void* arg)
-{
-    for(;;) {
-        uint8_t buf[127];
-
-        for(uint8_t i = 0; i < 127; i++) {
-          i2c_read_reg(0x69, 0x80 + i, buf + i);
+{   int16_t buf[64];
+    while(true) {
+      therm_read_frame(buf);
+      printf("Room Temp: %i\n", therm_get_thermis_temp()/16);
+      for(uint8_t i = 0; i < 64; i++){
+        printf("%i\t", buf[i]/4);
+        if(!((i + 1)%8)){
+          printf("\n");
         }
-
-        for(uint8_t i = 0; i < 8; i++) {
-            for(uint8_t j = 0; j < 16; j += 2) {
-                uint16_t temp = buf[i * 16 + j + 1];
-                temp = (temp << 8) + buf[i * 16 + j];
-                temp = temp / 4;
-                if (temp > 65) {
-                    printf("\033[22;47m");
-                } else if (temp > 52) {
-                    printf("\033[22;41m");
-                } else if (temp > 39) {
-                    printf("\033[22;43m");
-                } else if (temp > 26) {
-                    printf("\033[22;42m");
-                } else if (temp > 13) {
-                    printf("\033[22;44m");
-                } else {
-                    printf("\033[22;46m");
-                }
-                printf(" ");
-            }
-            printf("\033[22;0m\n");
-        }
-        printf("\n");
-        vTaskDelay(100 / portTICK_RATE_MS);
+      }
+      printf("\n\n");
     }
+    vTaskDelay(100);
 }
 
 
@@ -65,8 +46,8 @@ void app_main()
 
     xTaskCreate(lcd_loop, "lcd_loop", 2048, NULL, 10, NULL);
     //This is bad but I'm tired
-    while(1){
-      lcd_send_fbuff(screen_spi, &fbuff);
-      lcd_send_fbuff(screen_spi, &fbuff+(SCREEN_HEIGHT*SCREEN_WIDTH));
-    }
+    //while(1){
+    //  lcd_send_fbuff(screen_spi, &fbuff);
+    //  lcd_send_fbuff(screen_spi, &fbuff+(SCREEN_HEIGHT*SCREEN_WIDTH));
+    //  }
 }
