@@ -15,11 +15,15 @@
 #define THERM_THRMST_HI_ADDR      0x0f
 
 //Read a frame from the thermal sensor into a buffer of 64 signed 16 bit ints
-//This gets RAW data, not temperature values in Celsius. Divide the raw data
-//by 4 to get the temperature in Celsius
+//This gets RAW data, not temperature values in Celsius.
+//Pixel conversion factor = 0.25
+//Divide the raw data by 4 to get the temperature in Celsius
 void therm_read_frame(int16_t* buf);
+
 //Get the value of the thermistor in the thermal sensor
 //This gets RAW data, not temperature values in Celsius. Divide the raw data
+//Thermistor conversion factor = 0.0625
 //by 16 to get the temperature in Celsius
 int16_t therm_get_thermis_temp();
 //TODO: Get status reg of thermal sensor, clear status reg of thermal sensor
+//Thanks Adafruit!
