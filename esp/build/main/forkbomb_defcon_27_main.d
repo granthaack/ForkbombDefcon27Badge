@@ -80,13 +80,13 @@ forkbomb_defcon_27_main.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/limits.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
+ /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h \
  /home/ghaack/esp/esp-idf/components/driver/include/driver/i2c.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/ghaack/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
- /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
- /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h \
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fscreen.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/string.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -261,6 +261,12 @@ forkbomb_defcon_27_main.o: \
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
+/home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
+
+/home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h:
+
 /home/ghaack/esp/esp-idf/components/driver/include/driver/i2c.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h:
@@ -268,12 +274,6 @@ forkbomb_defcon_27_main.o: \
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
 /home/ghaack/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
-
-/home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h:
 
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fscreen.h:
 

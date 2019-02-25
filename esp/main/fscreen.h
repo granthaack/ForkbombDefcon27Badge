@@ -36,8 +36,9 @@ void lcd_screen_init(spi_device_handle_t spi);
 spi_device_handle_t lcd_spi_init();
 //Send the frame buffer to the LCD for drawing
 void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
-//TODO: Continously draw the output of the thermal sensor on the LCD
-//void lcd_draw_loop(uint16_t *lcd_data)
+
+//A table of RGB565 colors for the thermal camera. Thanks Adafruit!
+extern const uint16_t therm_colors[];
 
 typedef struct {
     uint8_t cmd;

@@ -26,4 +26,3 @@ void therm_read_frame(int16_t* buf);
 //by 16 to get the temperature in Celsius
 int16_t therm_get_thermis_temp();
 //TODO: Get status reg of thermal sensor, clear status reg of thermal sensor
-//Thanks Adafruit!
