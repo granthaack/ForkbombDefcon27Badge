@@ -15,6 +15,7 @@
 typedef struct lcd_struct{
   spi_device_handle_t screen_spi;
   uint16_t *fbuf;
+  uint8_t test;
 } xlcd_struct;
 
 void lcd_loop(void* pvParameters){
@@ -23,11 +24,11 @@ void lcd_loop(void* pvParameters){
   lcd_screen_init(screen_spi);
   //Allocate a DMA framebuffer
   uint16_t *fbuf = heap_caps_malloc(SCREEN_WIDTH*SCREEN_HEIGHT*sizeof(uint16_t), MALLOC_CAP_DMA);
-  printf("Framebuff allocated at 0x%p\n", fbuf);
 
   //FreeRTOS housekeeping
   xlcd_struct *lcd_params;
   lcd_params = ( xlcd_struct * ) pvParameters;
+
   //Allocate a buffer for the thermal data
   int16_t therm_buf[64];
   while(true) {
@@ -42,8 +43,7 @@ void lcd_loop(void* pvParameters){
         fbuf[(y * SCREEN_WIDTH) + b] = 0x0;
       }
     }
-      printf("Passed in fbuf is 0x%p\n", lcd_params->fbuf);
-    printf("Sending screen data at 0x%p\n", fbuf);
+    printf("Inside of function, test is %i\n", lcd_params->test);
     lcd_send_fbuff(screen_spi, fbuf);
   }
 }
@@ -54,7 +54,8 @@ void app_main()
     init_i2c();
     uint16_t *fbuf = 123;
     spi_device_handle_t screen_spi = NULL;
-    xlcd_struct lcd_params = {screen_spi, fbuf};
-    printf("Outside of loop, fbuf is %p\n", lcd_params.fbuf);
+    xlcd_struct lcd_params = {screen_spi, fbuf, 99};
+    xlcd_struct *lcd_params_ptr = &lcd_params;
+    printf("Outside of function, test is %i\n", lcd_params_ptr->test);
     xTaskCreate(lcd_loop, "lcd_loop", 2048, &lcd_params, 10, NULL);
 }
