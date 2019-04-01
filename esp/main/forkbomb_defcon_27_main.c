@@ -13,32 +13,24 @@
 #define SCALE_FACTOR 30
 #define THERM_RES 8
 
-//I don't like that these are globals, can I make them not globals?
-SemaphoreHandle_t xDrawSemaphore;
-SemaphoreHandle_t xThermSemaphore;
-int16_t* therm_buf;
+SemaphoreHandle_t xDrawMutex;
+static int16_t* therm_buf;
 
 typedef struct lcd_struct{
   spi_device_handle_t screen_spi;
 } xlcd_struct;
 
 void vDrawFrame(void* pvParameters){
-  //int64_t time = 0;
   //Init the SPI screen
   spi_device_handle_t screen_spi = lcd_spi_init();
   lcd_screen_init(screen_spi);
   //Allocate a DMA framebuffer
   uint16_t *fbuf = heap_caps_malloc(SCREEN_WIDTH*SCREEN_HEIGHT*sizeof(uint16_t), MALLOC_CAP_DMA);
-
   //FreeRTOS housekeeping
   xlcd_struct *lcd_params;
   lcd_params = ( xlcd_struct * ) pvParameters;
-  xSemaphoreGive(xThermSemaphore);
-
   while(true) {
-    if(xSemaphoreTake(xDrawSemaphore, portMAX_DELAY)){
-      //time = esp_timer_get_time();
-      //Scale up the data from the thermal sensor into a frame buffer
+    if(xSemaphoreTake(xDrawMutex, portMAX_DELAY)){
       for(uint16_t y = 0; y < SCREEN_HEIGHT; y++){
         for(uint16_t x = 0; x < SCALE_FACTOR*THERM_RES; x++){
           fbuf[(y * SCREEN_WIDTH) + x] = therm_colors[therm_buf[((y/SCALE_FACTOR)*THERM_RES + (x/SCALE_FACTOR))]];
@@ -48,9 +40,8 @@ void vDrawFrame(void* pvParameters){
         }
       }
       lcd_send_fbuff(screen_spi, fbuf);
-      xSemaphoreGive(xThermSemaphore);
-      //time = esp_timer_get_time() - time;
-      //printf("Sent frame in %lld microseconds\n", time);
+      printf("fbuff sent\n");
+      xSemaphoreGive(xDrawMutex);
     }
   }
 }
@@ -59,27 +50,22 @@ void vGetTherm(void* pvParameters){
   init_i2c();
   therm_buf = malloc(sizeof(int16_t)* 64);
   while(true){
-    if(xSemaphoreTake(xThermSemaphore, portMAX_DELAY)){
+    if(xSemaphoreTake(xDrawMutex, portMAX_DELAY)){
       vTaskDelay(1); //Set framerate here
       therm_read_frame(therm_buf);
-      xSemaphoreGive(xDrawSemaphore);
+      printf("therm buff sent\n");
+      xSemaphoreGive(xDrawMutex);
     }
   }
 }
 
 void app_main()
 {
-    //Two semaphores to prevent screen tearing, only one task can be executing
-    //at one time. I know there has to be a better way to do this, mutex or
-    //something?
-    xDrawSemaphore = xSemaphoreCreateBinary();
-    xThermSemaphore = xSemaphoreCreateBinary();
-
+    xDrawMutex = xSemaphoreCreateMutex();
     spi_device_handle_t screen_spi = NULL;
-
     xlcd_struct lcd_params = {screen_spi};
-
-    xTaskCreate(vDrawFrame, "vDrawFrame", 2048, &lcd_params, 2, NULL);
+    //These tasks need to have the same priority for the mutex to work
+    xTaskCreate(vDrawFrame, "vDrawFrame", 2048, &lcd_params, 1, NULL);
     xTaskCreate(vGetTherm, "vGetTherm", 2048, NULL, 1, NULL);
 }
 /*
