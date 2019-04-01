@@ -6,7 +6,7 @@ expat/expat/lib/xmlparse.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -27,6 +27,7 @@ expat/expat/lib/xmlparse.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/ghaack/esp/esp-idf/components/newlib/platform_include/sys/time.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/unistd.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
@@ -65,7 +66,7 @@ expat/expat/lib/xmlparse.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -106,6 +107,8 @@ expat/expat/lib/xmlparse.o: \
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/ghaack/esp/esp-idf/components/newlib/platform_include/sys/time.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/time.h:
 

@@ -10,7 +10,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -45,7 +45,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 

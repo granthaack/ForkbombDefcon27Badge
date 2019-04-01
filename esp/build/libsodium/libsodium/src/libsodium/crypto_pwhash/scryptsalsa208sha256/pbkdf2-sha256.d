@@ -10,7 +10,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -51,7 +51,7 @@ libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 

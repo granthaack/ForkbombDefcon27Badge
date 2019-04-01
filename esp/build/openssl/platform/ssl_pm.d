@@ -7,7 +7,7 @@ platform/ssl_pm.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -22,14 +22,14 @@ platform/ssl_pm.o: \
  /home/ghaack/esp/esp-idf/components/openssl/include/internal/tls1.h \
  /home/ghaack/esp/esp-idf/components/openssl/include/internal/x509_vfy.h \
  /home/ghaack/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
@@ -78,8 +78,8 @@ platform/ssl_pm.o: \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h \
+ /home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h
 
@@ -97,7 +97,7 @@ platform/ssl_pm.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -127,7 +127,7 @@ platform/ssl_pm.o: \
 
 /home/ghaack/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -137,11 +137,11 @@ platform/ssl_pm.o: \
 
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
@@ -239,9 +239,9 @@ platform/ssl_pm.o: \
 
 /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h:
+/home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h:
 
 /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
 

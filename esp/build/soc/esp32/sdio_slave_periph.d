@@ -8,7 +8,7 @@ esp32/sdio_slave_periph.o: \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/sdio_slave_pins.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/slc_reg.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
@@ -16,7 +16,7 @@ esp32/sdio_slave_periph.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -49,7 +49,7 @@ esp32/sdio_slave_periph.o: \
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
@@ -65,7 +65,7 @@ esp32/sdio_slave_periph.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 

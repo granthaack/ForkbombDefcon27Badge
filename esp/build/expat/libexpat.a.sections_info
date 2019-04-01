@@ -25,25 +25,6 @@ Idx Name          Size      VMA       LMA       File off  Algn
   9 .xtensa.info  00000038  00000000  00000000  00000195  2**0
                   CONTENTS, READONLY
 
-xmltok_ns.o:     file format elf32-xtensa-le
-
-Sections:
-Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00000000  00000000  00000000  00000034  2**0
-                  CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00000000  00000000  00000034  2**0
-                  CONTENTS, ALLOC, LOAD, DATA
-  2 .bss          00000000  00000000  00000000  00000034  2**0
-                  ALLOC
-  3 .debug_line   00000000  00000000  00000000  00000034  2**0
-                  CONTENTS, READONLY, DEBUGGING
-  4 .debug_str    000000b5  00000000  00000000  00000034  2**0
-                  CONTENTS, READONLY, DEBUGGING
-  5 .comment      0000003b  00000000  00000000  000000e9  2**0
-                  CONTENTS, READONLY
-  6 .xtensa.info  00000038  00000000  00000000  00000124  2**0
-                  CONTENTS, READONLY
-
 xmltok.o:     file format elf32-xtensa-le
 
 Sections:
@@ -1632,6 +1613,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY
 152 .xt.prop      00001e90  00000000  00000000  0000889c  2**0
                   CONTENTS, RELOC, READONLY
+
+xmltok_ns.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .debug_line   00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_str    000000b5  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .comment      0000003b  00000000  00000000  000000e9  2**0
+                  CONTENTS, READONLY
+  6 .xtensa.info  00000038  00000000  00000000  00000124  2**0
+                  CONTENTS, READONLY
 
 xmltok_impl.o:     file format elf32-xtensa-le
 

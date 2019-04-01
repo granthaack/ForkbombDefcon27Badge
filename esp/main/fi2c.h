@@ -17,7 +17,7 @@
 #define I2C_MASTER_SCL_IO 22               /*!< gpio number for I2C master clock */
 #define I2C_MASTER_SDA_IO 21               /*!< gpio number for I2C master data  */
 #define I2C_MASTER_NUM 0                   /*!< I2C port number for master dev */
-#define I2C_MASTER_FREQ_HZ 100000          /*!< I2C master clock frequency */
+#define I2C_MASTER_FREQ_HZ 1000000         /*!< I2C master clock frequency. Set to 1MHz, ludicrous speed! */
 #define I2C_MASTER_TX_BUF_LEN (2 * 255)    /*!< I2C slave tx buffer size */
 #define I2C_MASTER_RX_BUF_LEN (2 * 255)    /*!< I2C slave rx buffer size */
 #define ACK_CHECK_EN 0x1

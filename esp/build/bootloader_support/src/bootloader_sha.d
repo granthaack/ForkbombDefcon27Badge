@@ -10,7 +10,7 @@ src/bootloader_sha.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -19,7 +19,7 @@ src/bootloader_sha.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/types.h \
@@ -60,7 +60,7 @@ src/bootloader_sha.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -78,7 +78,7 @@ src/bootloader_sha.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
 

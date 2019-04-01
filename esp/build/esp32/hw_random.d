@@ -8,7 +8,7 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -22,10 +22,10 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_clk.h \
+ /home/ghaack/esp/esp-idf/components/esp32/include/esp32/clk.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/wdev_reg.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
@@ -33,18 +33,18 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/hal.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/core-macros.h
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/core-macros.h
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -64,7 +64,7 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -92,13 +92,13 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
 
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_clk.h:
+/home/ghaack/esp/esp-idf/components/esp32/include/esp32/clk.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/wdev_reg.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
@@ -114,27 +114,27 @@ hw_random.o: /home/ghaack/esp/esp-idf/components/esp32/hw_random.c \
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/hal.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/tie.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/system.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/corebits.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/core-macros.h:
 /home/ghaack/esp/esp-idf/components/esp32/./hw_random.c:

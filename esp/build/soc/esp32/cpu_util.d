@@ -7,15 +7,15 @@ esp32/cpu_util.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/hal.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
@@ -48,23 +48,23 @@ esp32/cpu_util.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/corebits.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/hal.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
+/home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/tie.h:
+/home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 

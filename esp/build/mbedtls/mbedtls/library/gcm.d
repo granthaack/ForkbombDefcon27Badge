@@ -9,7 +9,7 @@ mbedtls/library/gcm.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_types.h \
@@ -31,9 +31,9 @@ mbedtls/library/gcm.o: \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aesni.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h \
+ /home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
@@ -64,7 +64,7 @@ mbedtls/library/gcm.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -108,11 +108,11 @@ mbedtls/library/gcm.o: \
 
 /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h:
+/home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h:
 
 /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 

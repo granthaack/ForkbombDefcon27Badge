@@ -1,6 +1,6 @@
 coexist.o: /home/ghaack/esp/esp-idf/components/esp32/coexist.c \
  /home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -10,7 +10,7 @@ coexist.o: /home/ghaack/esp/esp-idf/components/esp32/coexist.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -27,11 +27,12 @@ coexist.o: /home/ghaack/esp/esp-idf/components/esp32/coexist.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
- /home/ghaack/esp/esp-idf/components/esp32/coexist_internal.h
+ /home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist_internal.h \
+ /home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist_adapter.h
 
 /home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -51,7 +52,7 @@ coexist.o: /home/ghaack/esp/esp-idf/components/esp32/coexist.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
@@ -85,5 +86,7 @@ coexist.o: /home/ghaack/esp/esp-idf/components/esp32/coexist.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/coexist_internal.h:
+/home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist_internal.h:
+
+/home/ghaack/esp/esp-idf/components/esp32/include/esp_coexist_adapter.h:
 /home/ghaack/esp/esp-idf/components/esp32/./coexist.c:

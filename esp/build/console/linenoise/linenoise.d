@@ -8,7 +8,7 @@ linenoise/linenoise.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -24,6 +24,7 @@ linenoise/linenoise.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/stdio_ext.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/errno.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/errno.h \
@@ -54,7 +55,7 @@ linenoise/linenoise.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
@@ -85,6 +86,8 @@ linenoise/linenoise.o: \
 /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/ghaack/esp/esp-idf/components/newlib/include/stdio_ext.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/errno.h:
 

@@ -3,7 +3,7 @@ src/nvs_storage.o: \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
@@ -26,7 +26,7 @@ src/nvs_storage.o: \
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
 

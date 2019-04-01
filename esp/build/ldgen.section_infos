@@ -8,15 +8,19 @@
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/console/libconsole.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/cxx/libcxx.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/driver/libdriver.a.sections_info
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/efuse/libefuse.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp-tls/libesp-tls.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp32/libesp32.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_adc_cal/libesp_adc_cal.a.sections_info
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_common/libesp_common.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_event/libesp_event.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_http_client/libesp_http_client.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_http_server/libesp_http_server.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_https_ota/libesp_https_ota.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_https_server/libesp_https_server.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_ringbuf/libesp_ringbuf.a.sections_info
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/esp_rom/libesp_rom.a.sections_info
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/espcoredump/libespcoredump.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/ethernet/libethernet.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/expat/libexpat.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/fatfs/libfatfs.a.sections_info
@@ -54,4 +58,4 @@
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/wear_levelling/libwear_levelling.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/wifi_provisioning/libwifi_provisioning.a.sections_info
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/wpa_supplicant/libwpa_supplicant.a.sections_info
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/xtensa-debug-module/libxtensa-debug-module.a.sections_info
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/xtensa/libxtensa.a.sections_info

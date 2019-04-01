@@ -36,10 +36,10 @@ Archive member included to satisfy reference by file (symbol)
                               /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o) (rtc_clk_init)
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
                               /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (GPIO_PIN_MUX_REG)
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                              /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o) (rtc_clk_32k_enable)
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                               /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o) (rtc_clk_cal_ratio)
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                              /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o) (rtc_clk_32k_enable)
 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                               /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
@@ -61,7 +61,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .xt.lit        0x0000000000000000        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.prop       0x0000000000000000       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.prop       0x0000000000000000       0x78 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
@@ -71,7 +71,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .xt.lit        0x0000000000000000       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.prop       0x0000000000000000      0x678 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x0000000000000000      0x6c0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .literal.bootloader_flash_erase_range
                 0x0000000000000000        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
@@ -154,9 +154,9 @@ Discarded input sections
  .text.bootloader_common_get_sha256_of_partition
                 0x0000000000000000       0xc7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text.bootloader_common_get_partition_description
-                0x0000000000000000       0x76 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000000       0x75 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .xt.lit        0x0000000000000000       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.prop       0x0000000000000000      0x4f8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x0000000000000000      0x564 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
@@ -257,6 +257,8 @@ Discarded input sections
  .iram1.2       0x0000000000000000       0x21 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
  .xt.lit        0x0000000000000000       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
  .xt.prop       0x0000000000000000      0x108 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .literal.rtc_wdt_flashboot_mode_enable
+                0x0000000000000000        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_wdt_feed
                 0x0000000000000000       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_wdt_get_timeout
@@ -266,14 +268,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .text.rtc_wdt_flashboot_mode_enable
+                0x0000000000000000       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .text.rtc_wdt_feed
                 0x0000000000000000       0x32 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .text.rtc_wdt_get_timeout
-                0x0000000000000000       0x59 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x0000000000000000       0x5d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .text.rtc_wdt_is_on
                 0x0000000000000000       0x25 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .xt.lit        0x0000000000000000       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .xt.prop       0x0000000000000000      0x3f0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .xt.lit        0x0000000000000000       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .xt.prop       0x0000000000000000      0x420 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_init
                 0x0000000000000000       0xb8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
@@ -294,6 +298,25 @@ Discarded input sections
  .rodata.GPIO_PIN_MUX_REG
                 0x0000000000000000       0xa0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .xt.prop       0x0000000000000000        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .literal.rtc_clk_cal
+                0x0000000000000000        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .literal.rtc_time_us_to_slowclk
+                0x0000000000000000        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .literal.rtc_time_get
+                0x0000000000000000       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_clk_cal
+                0x0000000000000000       0x52 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_us_to_slowclk
+                0x0000000000000000       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_slowclk_to_us
+                0x0000000000000000       0x1c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_get
+                0x0000000000000000       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.lit        0x0000000000000000       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.prop       0x0000000000000000      0x288 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_clk_32k_enable_external
                 0x0000000000000000        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_bootstrap
@@ -351,25 +374,6 @@ Discarded input sections
                 0x0000000000000000       0x17 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xt.lit        0x0000000000000000      0x120 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xt.prop       0x0000000000000000      0xcc0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .literal.rtc_clk_cal
-                0x0000000000000000        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .literal.rtc_time_us_to_slowclk
-                0x0000000000000000        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .literal.rtc_time_get
-                0x0000000000000000       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .data          0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .bss           0x0000000000000000        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text.rtc_clk_cal
-                0x0000000000000000       0x52 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text.rtc_time_us_to_slowclk
-                0x0000000000000000       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text.rtc_time_slowclk_to_us
-                0x0000000000000000       0x1c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text.rtc_time_get
-                0x0000000000000000       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.lit        0x0000000000000000       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.prop       0x0000000000000000      0x288 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .data          0x0000000000000000        0x0 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .bss           0x0000000000000000        0x0 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xt.lit        0x0000000000000000        0x8 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
@@ -397,13 +401,14 @@ LOAD /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/
 LOAD /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/micro-ecc/libmicro-ecc.a
 LOAD /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a
 LOAD /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a
+LOAD /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/efuse/libefuse.a
 LOAD /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
 LOAD /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
 LOAD /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcov.a
 END GROUP
 
 .iram_loader.text
-                0x0000000040078000     0x2b99
+                0x0000000040078000     0x2c29
                 0x0000000040078000                . = ALIGN (0x10)
                 0x0000000040078000                _loader_text_start = ABSOLUTE (.)
  *(.stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
@@ -423,7 +428,7 @@ END GROUP
                                           0x8 (size before relaxing)
  .literal.bootloader_common_get_active_otadata
                 0x0000000040078058        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                          0x8 (size before relaxing)
+                                          0xc (size before relaxing)
  .literal.spi_to_esp_err
                 0x0000000040078058        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
@@ -465,476 +470,482 @@ END GROUP
                 0x0000000040078188        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x18 (size before relaxing)
  .literal.set_actual_ota_seq
-                0x000000004007818c        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                         0x10 (size before relaxing)
+                0x000000004007818c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                         0x24 (size before relaxing)
  .literal.try_load_partition
-                0x0000000040078194        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000004007819c        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x14 (size before relaxing)
  .literal.set_cache_and_start_app
-                0x0000000040078198        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400781a0        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x30 (size before relaxing)
  .literal.unpack_load_app
-                0x00000000400781a4       0x1c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400781ac       0x1c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x34 (size before relaxing)
  .literal.load_image
-                0x00000000400781c0        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400781c8        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x18 (size before relaxing)
  .literal.bootloader_utility_load_partition_table
-                0x00000000400781c4       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                         0x88 (size before relaxing)
+                0x00000000400781cc       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                         0x90 (size before relaxing)
  .literal.bootloader_utility_get_selected_boot_partition
-                0x0000000040078204       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078214       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x50 (size before relaxing)
  .literal.bootloader_reset
-                0x0000000040078214        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040078224        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_utility_load_boot_image
-                0x0000000040078220       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                         0x6c (size before relaxing)
+                0x0000000040078230        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                         0x74 (size before relaxing)
  .literal.bootloader_sha256_start
-                0x0000000040078230        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000004007823c        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .literal.bootloader_sha256_data
-                0x0000000040078238       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040078244       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_sha256_finish
-                0x0000000040078258       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040078264       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x4c (size before relaxing)
  .literal.should_map
-                0x0000000040078270        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007827c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x10 (size before relaxing)
  .literal.verify_image_header
-                0x0000000040078270       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007827c       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x2c (size before relaxing)
  .literal.verify_segment_header
-                0x0000000040078284        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078290        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x28 (size before relaxing)
  .literal.verify_checksum
-                0x0000000040078290        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007829c        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1c (size before relaxing)
  .literal.process_segment_data
-                0x0000000040078294        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782a0        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x24 (size before relaxing)
  .literal.debug_log_hash
-                0x000000004007829c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782a8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                           0x4 (size before relaxing)
  .literal.verify_simple_hash
-                0x000000004007829c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782a8       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x3c (size before relaxing)
  .literal.should_load
-                0x00000000400782ac       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782b8       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1c (size before relaxing)
  .literal.process_segment
-                0x00000000400782c0       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782cc       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x74 (size before relaxing)
  .literal.image_load
-                0x00000000400782ec       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400782f8       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x88 (size before relaxing)
  .literal.bootloader_load_image
-                0x0000000040078300        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007830c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                           0x4 (size before relaxing)
  .literal.esp_partition_table_verify
-                0x0000000040078300       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000000004007830c       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0x5c (size before relaxing)
  .literal.esp_rom_spiflash_read_status
-                0x0000000040078330        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007833c        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x000000004007833c        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078348        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_erase_sector_internal
-                0x0000000040078344        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078350        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x0000000040078348        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078354        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_enable_write
-                0x0000000040078354        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078360        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x10 (size before relaxing)
  .literal.esp_rom_spiflash_program_page_internal
-                0x0000000040078358        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078364        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x24 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x000000004007835c        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078368        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x0000000040078360        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007836c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x0000000040078360        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007836c        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_erase_sector
-                0x0000000040078368       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078374       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x20 (size before relaxing)
  .literal.esp_rom_spiflash_write
-                0x0000000040078378        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078384        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_write_encrypted
-                0x0000000040078378        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078384        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x10 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x0000000040078384       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078390       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x5c (size before relaxing)
  .literal.rtc_wdt_get_protect_status
-                0x00000000400783b0        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783bc        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_wdt_protect_off
-                0x00000000400783b8        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783c4        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                           0x8 (size before relaxing)
  .literal.rtc_wdt_protect_on
-                0x00000000400783bc        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783c8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                           0x4 (size before relaxing)
  .literal.rtc_wdt_enable
-                0x00000000400783bc        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783c8        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x10 (size before relaxing)
  .literal.rtc_wdt_set_time
-                0x00000000400783c8       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783d4       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x20 (size before relaxing)
  .literal.rtc_wdt_set_stage
-                0x00000000400783e0       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783ec       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x14 (size before relaxing)
  .literal.rtc_wdt_disable
-                0x00000000400783f0        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000400783fc        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x2c (size before relaxing)
  .literal.rtc_wdt_set_length_of_reset_signal
-                0x00000000400783f4        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040078400        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                           0xc (size before relaxing)
- .iram1.11      0x00000000400783fc      0x22b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x0000000040078627        0x1 
- .iram1.3       0x0000000040078628        0xe /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
-                0x0000000040078628                esp_cpu_in_ocd_debug_mode
- *fill*         0x0000000040078636        0x0 
+ .iram1.11      0x0000000040078408      0x22b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x0000000040078633        0x1 
+ .iram1.3       0x0000000040078634        0xe /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x0000000040078634                esp_cpu_in_ocd_debug_mode
+ *fill*         0x0000000040078642        0x0 
  *liblog.a:(.literal .text .literal.* .text.*)
- *fill*         0x0000000040078636        0x2 
+ *fill*         0x0000000040078642        0x2 
  .text.esp_log_early_timestamp
-                0x0000000040078638       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
-                0x0000000040078638                esp_log_timestamp
-                0x0000000040078638                esp_log_early_timestamp
- *fill*         0x0000000040078657        0x0 
+                0x0000000040078644       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+                0x0000000040078644                esp_log_timestamp
+                0x0000000040078644                esp_log_early_timestamp
+ *fill*         0x0000000040078663        0x0 
  *libgcc.a:(.literal .text .literal.* .text.*)
- *fill*         0x0000000040078657        0x1 
- .text          0x0000000040078658       0x26 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                0x0000000040078658                __bswapsi2
- *fill*         0x000000004007867e        0x0 
- *fill*         0x000000004007867e        0x2 
- .text          0x0000000040078680      0x281 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                0x0000000040078680                __udivdi3
+ *fill*         0x0000000040078663        0x1 
+ .text          0x0000000040078664       0x26 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x0000000040078664                __bswapsi2
+ *fill*         0x000000004007868a        0x0 
+ *fill*         0x000000004007868a        0x2 
+ .text          0x000000004007868c      0x281 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x000000004007868c                __udivdi3
  *libbootloader_support.a:bootloader_common.*(.literal .text .literal.* .text.*)
- *fill*         0x0000000040078901        0x3 
+ *fill*         0x000000004007890d        0x3 
  .text.bootloader_common_ota_select_crc
-                0x0000000040078904       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                0x0000000040078904                bootloader_common_ota_select_crc
+                0x0000000040078910       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040078910                bootloader_common_ota_select_crc
  .text.bootloader_common_ota_select_valid
-                0x0000000040078918       0x24 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040078924       0x24 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
                                          0x28 (size before relaxing)
-                0x0000000040078918                bootloader_common_ota_select_valid
+                0x0000000040078924                bootloader_common_ota_select_valid
  .text.bootloader_common_get_active_otadata
-                0x000000004007893c       0x4a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                         0x4e (size before relaxing)
-                0x000000004007893c                bootloader_common_get_active_otadata
- *fill*         0x0000000040078986        0x2 
+                0x0000000040078948       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                         0x30 (size before relaxing)
+                0x0000000040078948                bootloader_common_get_active_otadata
+ *fill*         0x0000000040078970        0x0 
  .text.bootloader_common_ota_select_invalid
-                0x0000000040078988       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                0x0000000040078988                bootloader_common_ota_select_invalid
+                0x0000000040078970       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040078970                bootloader_common_ota_select_invalid
+ .text.bootloader_common_select_otadata
+                0x0000000040078990       0x62 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040078990                bootloader_common_select_otadata
+ *fill*         0x00000000400789f2        0x0 
  *libbootloader_support.a:bootloader_flash.*(.literal .text .literal.* .text.*)
+ *fill*         0x00000000400789f2        0x2 
  .text.spi_to_esp_err
-                0x00000000400789a8       0x22 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x00000000400789ca        0x2 
+                0x00000000400789f4       0x22 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x0000000040078a16        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x00000000400789cc       0x97 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078a18       0x97 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x9b (size before relaxing)
- *fill*         0x0000000040078a63        0x1 
+ *fill*         0x0000000040078aaf        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x0000000040078a64       0x32 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078ab0       0x32 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x36 (size before relaxing)
- *fill*         0x0000000040078a96        0x2 
+ *fill*         0x0000000040078ae2        0x2 
  .text.bootloader_mmap
-                0x0000000040078a98       0xb4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078ae4       0xb4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0xbc (size before relaxing)
-                0x0000000040078a98                bootloader_mmap
+                0x0000000040078ae4                bootloader_mmap
  .text.bootloader_munmap
-                0x0000000040078b4c       0x36 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x0000000040078b4c                bootloader_munmap
- *fill*         0x0000000040078b82        0x2 
+                0x0000000040078b98       0x36 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078b98                bootloader_munmap
+ *fill*         0x0000000040078bce        0x2 
  .text.bootloader_flash_read
-                0x0000000040078b84       0x86 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x0000000040078b84                bootloader_flash_read
- *fill*         0x0000000040078c0a        0x2 
+                0x0000000040078bd0       0x86 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078bd0                bootloader_flash_read
+ *fill*         0x0000000040078c56        0x2 
  .text.bootloader_flash_write
-                0x0000000040078c0c       0xa2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078c58       0xa2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0xb2 (size before relaxing)
-                0x0000000040078c0c                bootloader_flash_write
- *fill*         0x0000000040078cae        0x2 
+                0x0000000040078c58                bootloader_flash_write
+ *fill*         0x0000000040078cfa        0x2 
  .text.bootloader_flash_erase_sector
-                0x0000000040078cb0       0x12 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078cfc       0x12 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x16 (size before relaxing)
-                0x0000000040078cb0                bootloader_flash_erase_sector
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
- *fill*         0x0000000040078cc2        0x0 
+                0x0000000040078cfc                bootloader_flash_erase_sector
+ *fill*         0x0000000040078d0e        0x0 
+ *fill*         0x0000000040078d0e        0x0 
+ *fill*         0x0000000040078d0e        0x0 
+ *fill*         0x0000000040078d0e        0x0 
+ *fill*         0x0000000040078d0e        0x0 
+ *fill*         0x0000000040078d0e        0x0 
  *libbootloader_support.a:bootloader_random.*(.literal .text .literal.* .text.*)
- *fill*         0x0000000040078cc2        0x2 
+ *fill*         0x0000000040078d0e        0x2 
  .text.bootloader_fill_random
-                0x0000000040078cc4       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078d10       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x6e (size before relaxing)
-                0x0000000040078cc4                bootloader_fill_random
- *fill*         0x0000000040078d2e        0x2 
+                0x0000000040078d10                bootloader_fill_random
+ *fill*         0x0000000040078d7a        0x2 
  .text.bootloader_random_enable
-                0x0000000040078d30      0x1d5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040078d30                bootloader_random_enable
- *fill*         0x0000000040078f05        0x3 
+                0x0000000040078d7c      0x1d5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078d7c                bootloader_random_enable
+ *fill*         0x0000000040078f51        0x3 
  .text.bootloader_random_disable
-                0x0000000040078f08      0x11c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040078f08                bootloader_random_disable
- *fill*         0x0000000040079024        0x0 
- *fill*         0x0000000040079024        0x0 
- *fill*         0x0000000040079024        0x0 
+                0x0000000040078f54      0x11c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078f54                bootloader_random_disable
+ *fill*         0x0000000040079070        0x0 
+ *fill*         0x0000000040079070        0x0 
+ *fill*         0x0000000040079070        0x0 
  *libbootloader_support.a:bootloader_utility.*(.literal .text .literal.* .text.*)
  .text.log_invalid_app_partition
-                0x0000000040079024       0x57 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040079070       0x57 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x5b (size before relaxing)
- *fill*         0x000000004007907b        0x1 
+ *fill*         0x00000000400790c7        0x1 
  .text.read_otadata
-                0x000000004007907c       0x7a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400790c8       0x7a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x7e (size before relaxing)
- *fill*         0x00000000400790f6        0x2 
+ *fill*         0x0000000040079142        0x2 
  .text.write_otadata
-                0x00000000400790f8       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040079144       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x3c (size before relaxing)
  .text.set_actual_ota_seq
-                0x0000000040079130       0x4b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                         0x4e (size before relaxing)
- *fill*         0x000000004007917b        0x1 
+                0x000000004007917c       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                         0x74 (size before relaxing)
  .text.try_load_partition
-                0x000000004007917c       0x31 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400791ec       0x31 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x35 (size before relaxing)
- *fill*         0x00000000400791ad        0x3 
+ *fill*         0x000000004007921d        0x3 
  .text.set_cache_and_start_app
-                0x00000000400791b0       0xda /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- *fill*         0x000000004007928a        0x2 
+                0x0000000040079220       0xda /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x00000000400792fa        0x2 
  .text.unpack_load_app
-                0x000000004007928c       0xb0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400792fc       0xb0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0xb4 (size before relaxing)
  .text.load_image
-                0x000000004007933c       0x1e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000400793ac       0x1e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x26 (size before relaxing)
- *fill*         0x000000004007935a        0x2 
+ *fill*         0x00000000400793ca        0x2 
  .text.bootloader_utility_load_partition_table
-                0x000000004007935c      0x168 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0x184 (size before relaxing)
-                0x000000004007935c                bootloader_utility_load_partition_table
+                0x00000000400793cc      0x16c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0x180 (size before relaxing)
+                0x00000000400793cc                bootloader_utility_load_partition_table
  .text.bootloader_utility_get_selected_boot_partition
-                0x00000000400794c4       0xea /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040079538       0xea /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0xfa (size before relaxing)
-                0x00000000400794c4                bootloader_utility_get_selected_boot_partition
- *fill*         0x00000000400795ae        0x2 
+                0x0000000040079538                bootloader_utility_get_selected_boot_partition
+ *fill*         0x0000000040079622        0x2 
  .text.bootloader_reset
-                0x00000000400795b0       0x2b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                0x00000000400795b0                bootloader_reset
- *fill*         0x00000000400795db        0x1 
+                0x0000000040079624       0x2b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040079624                bootloader_reset
+ *fill*         0x000000004007964f        0x1 
  .text.bootloader_utility_load_boot_image
-                0x00000000400795dc       0xe7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0x113 (size before relaxing)
-                0x00000000400795dc                bootloader_utility_load_boot_image
- *fill*         0x00000000400796c3        0x1 
+                0x0000000040079650       0xfb /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0x127 (size before relaxing)
+                0x0000000040079650                bootloader_utility_load_boot_image
+ *fill*         0x000000004007974b        0x1 
  .text.index_to_partition
-                0x00000000400796c4       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
- *fill*         0x000000004007970c        0x0 
+                0x000000004007974c       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .text.check_anti_rollback
+                0x0000000040079794        0x7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
+ *fill*         0x000000004007979b        0x0 
  *libbootloader_support.a:bootloader_sha.*(.literal .text .literal.* .text.*)
+ *fill*         0x000000004007979b        0x1 
  .text.bootloader_sha256_start
-                0x000000004007970c       0x12 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x000000004007970c                bootloader_sha256_start
- *fill*         0x000000004007971e        0x2 
+                0x000000004007979c       0x12 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000004007979c                bootloader_sha256_start
+ *fill*         0x00000000400797ae        0x2 
  .text.bootloader_sha256_data
-                0x0000000040079720       0xa1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400797b0       0xa1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xa9 (size before relaxing)
-                0x0000000040079720                bootloader_sha256_data
- *fill*         0x00000000400797c1        0x3 
+                0x00000000400797b0                bootloader_sha256_data
+ *fill*         0x0000000040079851        0x3 
  .text.bootloader_sha256_finish
-                0x00000000400797c4       0xdc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079854       0xdc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xf0 (size before relaxing)
-                0x00000000400797c4                bootloader_sha256_finish
- *fill*         0x00000000400798a0        0x0 
- *fill*         0x00000000400798a0        0x0 
- *fill*         0x00000000400798a0        0x0 
+                0x0000000040079854                bootloader_sha256_finish
+ *fill*         0x0000000040079930        0x0 
+ *fill*         0x0000000040079930        0x0 
+ *fill*         0x0000000040079930        0x0 
  .text.bootloader_sha256_hex_to_str
-                0x00000000400798a0       0x72 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x00000000400798a0                bootloader_sha256_hex_to_str
- *libbootloader_support.a:efuse.*(.literal .text .literal.* .text.*)
+                0x0000000040079930       0x72 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079930                bootloader_sha256_hex_to_str
  *libbootloader_support.a:esp_image_format.*(.literal .text .literal.* .text.*)
- *fill*         0x0000000040079912        0x2 
+ *fill*         0x00000000400799a2        0x2 
  .text.should_map
-                0x0000000040079914       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400799a4       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.verify_image_header
-                0x0000000040079944       0x7e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x00000000400799c2        0x2 
+                0x00000000400799d4       0x7e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x0000000040079a52        0x2 
  .text.verify_segment_header
-                0x00000000400799c4       0x71 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079a54       0x71 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x79 (size before relaxing)
- *fill*         0x0000000040079a35        0x3 
+ *fill*         0x0000000040079ac5        0x3 
  .text.verify_checksum
-                0x0000000040079a38       0x87 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079ac8       0x87 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x8f (size before relaxing)
- *fill*         0x0000000040079abf        0x1 
+ *fill*         0x0000000040079b4f        0x1 
  .text.process_segment_data
-                0x0000000040079ac0       0xa4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079b50       0xa4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0xb0 (size before relaxing)
  .text.debug_log_hash
-                0x0000000040079b64       0x16 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x0000000040079b7a        0x2 
+                0x0000000040079bf4       0x16 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x0000000040079c0a        0x2 
  .text.verify_simple_hash
-                0x0000000040079b7c       0x69 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079c0c       0x69 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x80 (size before relaxing)
- *fill*         0x0000000040079be5        0x3 
+ *fill*         0x0000000040079c75        0x3 
  .text.should_load
-                0x0000000040079be8       0x4c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079c78       0x4c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x50 (size before relaxing)
  .text.process_segment
-                0x0000000040079c34      0x17f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079cc4      0x17f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x18f (size before relaxing)
- *fill*         0x0000000040079db3        0x1 
+ *fill*         0x0000000040079e43        0x1 
  .text.image_load
-                0x0000000040079db4      0x28a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079e44      0x28a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x2aa (size before relaxing)
- *fill*         0x000000004007a03e        0x2 
+ *fill*         0x000000004007a0ce        0x2 
  .text.bootloader_load_image
-                0x000000004007a040       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007a0d0       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x14 (size before relaxing)
-                0x000000004007a040                bootloader_load_image
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
- *fill*         0x000000004007a050        0x0 
+                0x000000004007a0d0                bootloader_load_image
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
+ *fill*         0x000000004007a0e0        0x0 
  *libbootloader_support.a:flash_encrypt.*(.literal .text .literal.* .text.*)
  *libbootloader_support.a:flash_partitions.*(.literal .text .literal.* .text.*)
  .text.esp_partition_table_verify
-                0x000000004007a050      0x143 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000000004007a0e0      0x143 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                         0x14f (size before relaxing)
-                0x000000004007a050                esp_partition_table_verify
+                0x000000004007a0e0                esp_partition_table_verify
  *libbootloader_support.a:secure_boot.*(.literal .text .literal.* .text.*)
  *libbootloader_support.a:secure_boot_signatures.*(.literal .text .literal.* .text.*)
  *libmicro-ecc.a:*.*(.literal .text .literal.* .text.*)
  *libspi_flash.a:*.*(.literal .text .literal.* .text.*)
- *fill*         0x000000004007a193        0x1 
+ *fill*         0x000000004007a223        0x1 
  .text.esp_rom_spiflash_read_status
-                0x000000004007a194       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a194                esp_rom_spiflash_read_status
- *fill*         0x000000004007a1f5        0x3 
+                0x000000004007a224       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a224                esp_rom_spiflash_read_status
+ *fill*         0x000000004007a285        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x000000004007a1f8       0x32 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a1f8                esp_rom_spiflash_wait_idle
- *fill*         0x000000004007a22a        0x2 
+                0x000000004007a288       0x32 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a288                esp_rom_spiflash_wait_idle
+ *fill*         0x000000004007a2ba        0x2 
  .text.esp_rom_spiflash_erase_sector_internal
-                0x000000004007a22c       0x44 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a2bc       0x44 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_read_data
-                0x000000004007a270       0xe2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- *fill*         0x000000004007a352        0x2 
+                0x000000004007a300       0xe2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ *fill*         0x000000004007a3e2        0x2 
  .text.esp_rom_spiflash_enable_write
-                0x000000004007a354       0x39 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a3e4       0x39 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x3d (size before relaxing)
- *fill*         0x000000004007a38d        0x3 
+ *fill*         0x000000004007a41d        0x3 
  .text.esp_rom_spiflash_program_page_internal
-                0x000000004007a390       0xea /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a420       0xea /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0xee (size before relaxing)
- *fill*         0x000000004007a47a        0x2 
+ *fill*         0x000000004007a50a        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x000000004007a47c       0x21 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a47c                esp_rom_spiflash_read_statushigh
- *fill*         0x000000004007a49d        0x3 
+                0x000000004007a50c       0x21 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a50c                esp_rom_spiflash_read_statushigh
+ *fill*         0x000000004007a52d        0x3 
  .text.esp_rom_spiflash_write_status
-                0x000000004007a4a0       0x34 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a530       0x34 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x38 (size before relaxing)
-                0x000000004007a4a0                esp_rom_spiflash_write_status
+                0x000000004007a530                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x000000004007a4d4       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a564       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x7e (size before relaxing)
-                0x000000004007a4d4                esp_rom_spiflash_unlock
- *fill*         0x000000004007a53e        0x2 
+                0x000000004007a564                esp_rom_spiflash_unlock
+ *fill*         0x000000004007a5ce        0x2 
  .text.esp_rom_spiflash_erase_sector
-                0x000000004007a540       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a5d0       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x65 (size before relaxing)
-                0x000000004007a540                esp_rom_spiflash_erase_sector
- *fill*         0x000000004007a5a1        0x3 
+                0x000000004007a5d0                esp_rom_spiflash_erase_sector
+ *fill*         0x000000004007a631        0x3 
  .text.esp_rom_spiflash_write
-                0x000000004007a5a4       0xc6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a634       0xc6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0xca (size before relaxing)
-                0x000000004007a5a4                esp_rom_spiflash_write
- *fill*         0x000000004007a66a        0x2 
+                0x000000004007a634                esp_rom_spiflash_write
+ *fill*         0x000000004007a6fa        0x2 
  .text.esp_rom_spiflash_write_encrypted
-                0x000000004007a66c       0x5a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a66c                esp_rom_spiflash_write_encrypted
- *fill*         0x000000004007a6c6        0x2 
+                0x000000004007a6fc       0x5a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a6fc                esp_rom_spiflash_write_encrypted
+ *fill*         0x000000004007a756        0x2 
  .text.esp_rom_spiflash_read
-                0x000000004007a6c8      0x284 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a6c8                esp_rom_spiflash_read
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
- *fill*         0x000000004007a94c        0x0 
+                0x000000004007a758      0x284 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007a758                esp_rom_spiflash_read
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
+ *fill*         0x000000004007a9dc        0x0 
  *libsoc.a:rtc_wdt.*(.literal .text .literal.* .text.*)
  .text.rtc_wdt_get_protect_status
-                0x000000004007a94c       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007a94c                rtc_wdt_get_protect_status
- *fill*         0x000000004007a965        0x3 
+                0x000000004007a9dc       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007a9dc                rtc_wdt_get_protect_status
+ *fill*         0x000000004007a9f5        0x3 
  .text.rtc_wdt_protect_off
-                0x000000004007a968       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007a968                rtc_wdt_protect_off
+                0x000000004007a9f8       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007a9f8                rtc_wdt_protect_off
  .text.rtc_wdt_protect_on
-                0x000000004007a978        0xf /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007a978                rtc_wdt_protect_on
- *fill*         0x000000004007a987        0x1 
+                0x000000004007aa08        0xf /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007aa08                rtc_wdt_protect_on
+ *fill*         0x000000004007aa17        0x1 
  .text.rtc_wdt_enable
-                0x000000004007a988       0x2b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007a988                rtc_wdt_enable
- *fill*         0x000000004007a9b3        0x1 
+                0x000000004007aa18       0x2b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007aa18                rtc_wdt_enable
+ *fill*         0x000000004007aa43        0x1 
  .text.rtc_wdt_set_time
-                0x000000004007a9b4       0x59 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007aa44       0x59 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x5d (size before relaxing)
-                0x000000004007a9b4                rtc_wdt_set_time
- *fill*         0x000000004007aa0d        0x3 
+                0x000000004007aa44                rtc_wdt_set_time
+ *fill*         0x000000004007aa9d        0x3 
  .text.rtc_wdt_set_stage
-                0x000000004007aa10       0xb1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007aa10                rtc_wdt_set_stage
- *fill*         0x000000004007aac1        0x3 
+                0x000000004007aaa0       0xb1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007aaa0                rtc_wdt_set_stage
+ *fill*         0x000000004007ab51        0x3 
  .text.rtc_wdt_disable
-                0x000000004007aac4       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007ab54       0x6a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
                                          0x7e (size before relaxing)
-                0x000000004007aac4                rtc_wdt_disable
- *fill*         0x000000004007ab2e        0x2 
+                0x000000004007ab54                rtc_wdt_disable
+ *fill*         0x000000004007abbe        0x2 
  .text.rtc_wdt_set_length_of_reset_signal
-                0x000000004007ab30       0x69 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                0x000000004007ab30                rtc_wdt_set_length_of_reset_signal
- *fill*         0x000000004007ab99        0x0 
- *fill*         0x000000004007ab99        0x0 
- *fill*         0x000000004007ab99        0x0 
- *fill*         0x000000004007ab99        0x0 
- *fill*         0x000000004007ab99        0x0 
- *fill*         0x000000004007ab99        0x0 
+                0x000000004007abc0       0x69 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x000000004007abc0                rtc_wdt_set_length_of_reset_signal
+ *fill*         0x000000004007ac29        0x0 
+ *fill*         0x000000004007ac29        0x0 
+ *fill*         0x000000004007ac29        0x0 
+ *fill*         0x000000004007ac29        0x0 
+ *fill*         0x000000004007ac29        0x0 
+ *fill*         0x000000004007ac29        0x0 
+ *libefuse.a:*.*(.literal .text .literal.* .text.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x000000004007ab99                _loader_text_end = ABSOLUTE (.)
+                0x000000004007ac29                _loader_text_end = ABSOLUTE (.)
 
-.iram.text      0x0000000040080400     0x1a0d
+.iram.text      0x0000000040080400     0x1a17
                 0x0000000040080400                . = ALIGN (0x10)
  *(.entry.text)
  *(.init.literal)
@@ -1003,299 +1014,297 @@ END GROUP
  .literal.rtc_clk_init
                 0x0000000040080624       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                          0xa4 (size before relaxing)
- .literal.rtc_clk_32k_enable_common
-                0x000000004008066c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x14 (size before relaxing)
- .literal.rtc_clk_bbpll_disable
-                0x000000004008067c        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x10 (size before relaxing)
- .literal.rtc_clk_bbpll_enable
-                0x0000000040080688        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x1c (size before relaxing)
- .literal.rtc_clk_32k_enable
-                0x0000000040080690        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0xc (size before relaxing)
- .literal.rtc_clk_8m_enable
-                0x0000000040080694        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x10 (size before relaxing)
- .literal.rtc_clk_8m_enabled
-                0x000000004008069c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x4 (size before relaxing)
- .literal.rtc_clk_8md256_enabled
-                0x000000004008069c        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x4 (size before relaxing)
- .literal.rtc_clk_slow_freq_set
-                0x000000004008069c        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0xc (size before relaxing)
- .literal.rtc_clk_slow_freq_get
-                0x00000000400806a0        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x4 (size before relaxing)
- .literal.rtc_clk_slow_freq_get_hz
-                0x00000000400806a0        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x10 (size before relaxing)
- .literal.rtc_clk_fast_freq_set
-                0x00000000400806a8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0xc (size before relaxing)
- .literal.rtc_clk_fast_freq_get
-                0x00000000400806a8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x4 (size before relaxing)
- .literal.rtc_clk_bbpll_configure
-                0x00000000400806a8        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x3c (size before relaxing)
- .literal.rtc_clk_xtal_freq_get
-                0x00000000400806b0        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x8 (size before relaxing)
- .literal.rtc_clk_cpu_freq_mhz_to_config
-                0x00000000400806b4        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x4 (size before relaxing)
- .literal.rtc_clk_cpu_freq_get_config
-                0x00000000400806b4       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x30 (size before relaxing)
- .literal.rtc_clk_xtal_freq_update
-                0x00000000400806c4        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                          0x8 (size before relaxing)
- .literal.rtc_clk_apb_freq_update
-                0x00000000400806c8        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .literal.rtc_clk_cpu_freq_to_xtal
-                0x00000000400806cc        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x34 (size before relaxing)
- .literal.rtc_clk_cpu_freq_to_pll_mhz
-                0x00000000400806d8        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x40 (size before relaxing)
- .literal.rtc_clk_cpu_freq_to_8m
-                0x00000000400806e4        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x2c (size before relaxing)
- .literal.rtc_clk_cpu_freq_set_config
-                0x00000000400806e8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x30 (size before relaxing)
- .literal.rtc_clk_apb_freq_get
-                0x00000000400806e8        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x10 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x00000000400806ec       0x34 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004008066c       0x3c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x68 (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x0000000040080720        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000000400806a8        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_wait_for_slow_cycle
-                0x0000000040080720        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000000400806a8        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x20 (size before relaxing)
+ .literal.rtc_clk_32k_enable_common
+                0x00000000400806b0       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x14 (size before relaxing)
+ .literal.rtc_clk_bbpll_disable
+                0x00000000400806c0        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x10 (size before relaxing)
+ .literal.rtc_clk_bbpll_enable
+                0x00000000400806cc        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x1c (size before relaxing)
+ .literal.rtc_clk_32k_enable
+                0x00000000400806d4        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_8m_enable
+                0x00000000400806d8        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x10 (size before relaxing)
+ .literal.rtc_clk_8m_enabled
+                0x00000000400806e0        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_8md256_enabled
+                0x00000000400806e0        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_slow_freq_set
+                0x00000000400806e0        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_slow_freq_get
+                0x00000000400806e4        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_slow_freq_get_hz
+                0x00000000400806e4        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x10 (size before relaxing)
+ .literal.rtc_clk_fast_freq_set
+                0x00000000400806e4        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_fast_freq_get
+                0x00000000400806e4        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_bbpll_configure
+                0x00000000400806e4        0x8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x3c (size before relaxing)
+ .literal.rtc_clk_xtal_freq_get
+                0x00000000400806ec        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x8 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_mhz_to_config
+                0x00000000400806f0        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_get_config
+                0x00000000400806f0        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x30 (size before relaxing)
+ .literal.rtc_clk_xtal_freq_update
+                0x00000000400806fc        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x8 (size before relaxing)
+ .literal.rtc_clk_apb_freq_update
+                0x0000000040080700        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_cpu_freq_to_xtal
+                0x0000000040080704        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x30 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_to_pll_mhz
+                0x0000000040080710        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x40 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_to_8m
+                0x000000004008071c        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x28 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_set_config
+                0x0000000040080720        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x30 (size before relaxing)
+ .literal.rtc_clk_apb_freq_get
+                0x0000000040080720        0x4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x10 (size before relaxing)
  .text.selected_boot_partition
-                0x0000000040080728        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080724        0xc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x10 (size before relaxing)
  .text.select_partition_number
-                0x0000000040080734       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080730       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x34 (size before relaxing)
  .text.call_start_cpu0
-                0x0000000040080764       0x35 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080760       0x35 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3c (size before relaxing)
-                0x0000000040080764                call_start_cpu0
- *fill*         0x0000000040080799        0x3 
+                0x0000000040080760                call_start_cpu0
+ *fill*         0x0000000040080795        0x3 
  .text.wdt_reset_cpu0_info_enable
-                0x000000004008079c       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x00000000400807c3        0x1 
+                0x0000000040080798       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x00000000400807bf        0x1 
  .text.wdt_reset_info_dump
-                0x00000000400807c4       0xe6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x00000000400808aa        0x2 
+                0x00000000400807c0       0xe6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x00000000400808a6        0x2 
  .text.print_flash_info
-                0x00000000400808ac       0xf6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x00000000400809a2        0x2 
+                0x00000000400808a8       0xf6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x000000004008099e        0x2 
  .text.vddsdio_configure
-                0x00000000400809a4       0x33 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400809a0       0x33 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x37 (size before relaxing)
- *fill*         0x00000000400809d7        0x1 
+ *fill*         0x00000000400809d3        0x1 
  .text.uart_console_configure
-                0x00000000400809d8       0x36 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000400809d4       0x36 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x3a (size before relaxing)
- *fill*         0x0000000040080a0e        0x2 
+ *fill*         0x0000000040080a0a        0x2 
  .text.wdt_reset_check
-                0x0000000040080a10       0xa2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080a0c       0xa2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0xae (size before relaxing)
- *fill*         0x0000000040080ab2        0x2 
+ *fill*         0x0000000040080aae        0x2 
  .text.update_flash_config
-                0x0000000040080ab4       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080ab0       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text.bootloader_main
-                0x0000000040080b1c       0xe0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080b18       0xe0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0x128 (size before relaxing)
  .text.__assert_func
-                0x0000000040080bfc       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080bf8       0x1f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x23 (size before relaxing)
-                0x0000000040080bfc                __assert_func
- *fill*         0x0000000040080c1b        0x1 
+                0x0000000040080bf8                __assert_func
+ *fill*         0x0000000040080c17        0x1 
  .text.bootloader_init
-                0x0000000040080c1c      0x12a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080c18      0x12a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0x13a (size before relaxing)
-                0x0000000040080c1c                bootloader_init
- *fill*         0x0000000040080d46        0x2 
- .text.abort    0x0000000040080d48       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080c18                bootloader_init
+ *fill*         0x0000000040080d42        0x2 
+ .text.abort    0x0000000040080d44       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x2f (size before relaxing)
-                0x0000000040080d48                abort
- *fill*         0x0000000040080d74        0x0 
+                0x0000000040080d44                abort
+ *fill*         0x0000000040080d70        0x0 
  .text.bootloader_clock_configure
-                0x0000000040080d74       0x6e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                         0x76 (size before relaxing)
-                0x0000000040080d74                bootloader_clock_configure
- *fill*         0x0000000040080de2        0x2 
+                0x0000000040080d70       0x8e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                         0x96 (size before relaxing)
+                0x0000000040080d70                bootloader_clock_configure
+ *fill*         0x0000000040080dfe        0x2 
  .text.execute_flash_command
-                0x0000000040080de4      0x190 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080e00      0x190 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x0000000040080f74       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080f90       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                          0x2b (size before relaxing)
-                0x0000000040080f74                bootloader_read_flash_id
- *fill*         0x0000000040080f9b        0x1 
+                0x0000000040080f90                bootloader_read_flash_id
+ *fill*         0x0000000040080fb7        0x1 
  .text.rtc_vddsdio_get_config
-                0x0000000040080f9c      0x104 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x0000000040080f9c                rtc_vddsdio_get_config
+                0x0000000040080fb8      0x104 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040080fb8                rtc_vddsdio_get_config
  .text.rtc_vddsdio_set_config
-                0x00000000400810a0       0x46 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x00000000400810a0                rtc_vddsdio_set_config
- *fill*         0x00000000400810e6        0x2 
+                0x00000000400810bc       0x46 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x00000000400810bc                rtc_vddsdio_set_config
+ *fill*         0x0000000040081102        0x2 
  .text.rtc_clk_xtal_freq_estimate
-                0x00000000400810e8       0xa6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x0000000040081104       0xa6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                          0xb2 (size before relaxing)
- *fill*         0x000000004008118e        0x2 
+ *fill*         0x00000000400811aa        0x2 
  .text.rtc_clk_init
-                0x0000000040081190      0x1da /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x00000000400811ac      0x1da /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                         0x20a (size before relaxing)
-                0x0000000040081190                rtc_clk_init
- *fill*         0x000000004008136a        0x2 
- .text.rtc_clk_32k_enable_common
-                0x000000004008136c       0x81 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x00000000400813ed        0x3 
- .text.rtc_clk_bbpll_disable
-                0x00000000400813f0       0x3e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004008142e        0x2 
- .text.rtc_clk_bbpll_enable
-                0x0000000040081430       0x66 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x0000000040081496        0x2 
- .text.rtc_clk_32k_enable
-                0x0000000040081498       0x2d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081498                rtc_clk_32k_enable
- *fill*         0x00000000400814c5        0x3 
- .text.rtc_clk_8m_enable
-                0x00000000400814c8       0x9b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400814c8                rtc_clk_8m_enable
- *fill*         0x0000000040081563        0x1 
- .text.rtc_clk_8m_enabled
-                0x0000000040081564       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081564                rtc_clk_8m_enabled
- *fill*         0x000000004008157d        0x3 
- .text.rtc_clk_8md256_enabled
-                0x0000000040081580       0x1a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081580                rtc_clk_8md256_enabled
- *fill*         0x000000004008159a        0x2 
- .text.rtc_clk_slow_freq_set
-                0x000000004008159c       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004008159c                rtc_clk_slow_freq_set
- .text.rtc_clk_slow_freq_get
-                0x00000000400815e4       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400815e4                rtc_clk_slow_freq_get
- .text.rtc_clk_slow_freq_get_hz
-                0x00000000400815f4       0x29 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400815f4                rtc_clk_slow_freq_get_hz
- *fill*         0x000000004008161d        0x3 
- .text.rtc_clk_fast_freq_set
-                0x0000000040081620       0x2a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081620                rtc_clk_fast_freq_set
- *fill*         0x000000004008164a        0x2 
- .text.rtc_clk_fast_freq_get
-                0x000000004008164c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004008164c                rtc_clk_fast_freq_get
- .text.rtc_clk_bbpll_configure
-                0x000000004008165c      0x1a1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0x1a5 (size before relaxing)
-                0x000000004008165c                rtc_clk_bbpll_configure
- *fill*         0x00000000400817fd        0x3 
- .text.rtc_clk_xtal_freq_get
-                0x0000000040081800       0x35 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081800                rtc_get_xtal
-                0x0000000040081800                rtc_clk_xtal_freq_get
- *fill*         0x0000000040081835        0x3 
- .text.rtc_clk_cpu_freq_mhz_to_config
-                0x0000000040081838       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081838                rtc_clk_cpu_freq_mhz_to_config
- *fill*         0x0000000040081899        0x3 
- .text.rtc_clk_cpu_freq_get_config
-                0x000000004008189c       0xa9 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0xb5 (size before relaxing)
-                0x000000004008189c                rtc_clk_cpu_freq_get_config
- *fill*         0x0000000040081945        0x3 
- .text.rtc_clk_xtal_freq_update
-                0x0000000040081948       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081948                rtc_clk_xtal_freq_update
- .text.rtc_clk_apb_freq_update
-                0x0000000040081974       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081974                rtc_clk_apb_freq_update
- *fill*         0x000000004008198d        0x3 
- .text.rtc_clk_cpu_freq_to_xtal
-                0x0000000040081990       0x9f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0xa3 (size before relaxing)
-                0x0000000040081990                rtc_clk_cpu_freq_to_xtal
- *fill*         0x0000000040081a2f        0x1 
- .text.rtc_clk_cpu_freq_to_pll_mhz
-                0x0000000040081a30       0x9c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0xa4 (size before relaxing)
- .text.rtc_clk_cpu_freq_to_8m
-                0x0000000040081acc       0x62 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x66 (size before relaxing)
- *fill*         0x0000000040081b2e        0x2 
- .text.rtc_clk_cpu_freq_set_config
-                0x0000000040081b30       0x5b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                         0x76 (size before relaxing)
-                0x0000000040081b30                rtc_clk_cpu_freq_set_config
- *fill*         0x0000000040081b8b        0x1 
- .text.rtc_clk_apb_freq_get
-                0x0000000040081b8c       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081b8c                rtc_clk_apb_freq_get
- *fill*         0x0000000040081bb3        0x1 
+                0x00000000400811ac                rtc_clk_init
+ *fill*         0x0000000040081386        0x2 
  .text.rtc_clk_cal_internal
-                0x0000000040081bb4      0x1c0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081388      0x1c0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x1cc (size before relaxing)
  .text.rtc_clk_cal_ratio
-                0x0000000040081d74       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081548       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
-                0x0000000040081d74                rtc_clk_cal_ratio
+                0x0000000040081548                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x0000000040081d94       0x79 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                0x0000000040081d94                rtc_clk_wait_for_slow_cycle
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
- *fill*         0x0000000040081e0d        0x0 
+                0x0000000040081568       0x79 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081568                rtc_clk_wait_for_slow_cycle
+ *fill*         0x00000000400815e1        0x3 
+ .text.rtc_clk_32k_enable_common
+                0x00000000400815e4       0x81 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x0000000040081665        0x3 
+ .text.rtc_clk_bbpll_disable
+                0x0000000040081668       0x3e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x00000000400816a6        0x2 
+ .text.rtc_clk_bbpll_enable
+                0x00000000400816a8       0x66 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004008170e        0x2 
+ .text.rtc_clk_32k_enable
+                0x0000000040081710       0x2d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081710                rtc_clk_32k_enable
+ *fill*         0x000000004008173d        0x3 
+ .text.rtc_clk_8m_enable
+                0x0000000040081740       0x9b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081740                rtc_clk_8m_enable
+ *fill*         0x00000000400817db        0x1 
+ .text.rtc_clk_8m_enabled
+                0x00000000400817dc       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400817dc                rtc_clk_8m_enabled
+ *fill*         0x00000000400817f5        0x3 
+ .text.rtc_clk_8md256_enabled
+                0x00000000400817f8       0x1a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400817f8                rtc_clk_8md256_enabled
+ *fill*         0x0000000040081812        0x2 
+ .text.rtc_clk_slow_freq_set
+                0x0000000040081814       0x48 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081814                rtc_clk_slow_freq_set
+ .text.rtc_clk_slow_freq_get
+                0x000000004008185c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008185c                rtc_clk_slow_freq_get
+ .text.rtc_clk_slow_freq_get_hz
+                0x000000004008186c       0x29 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008186c                rtc_clk_slow_freq_get_hz
+ *fill*         0x0000000040081895        0x3 
+ .text.rtc_clk_fast_freq_set
+                0x0000000040081898       0x2a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081898                rtc_clk_fast_freq_set
+ *fill*         0x00000000400818c2        0x2 
+ .text.rtc_clk_fast_freq_get
+                0x00000000400818c4       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400818c4                rtc_clk_fast_freq_get
+ .text.rtc_clk_bbpll_configure
+                0x00000000400818d4      0x1a1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x1a5 (size before relaxing)
+                0x00000000400818d4                rtc_clk_bbpll_configure
+ *fill*         0x0000000040081a75        0x3 
+ .text.rtc_clk_xtal_freq_get
+                0x0000000040081a78       0x35 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081a78                rtc_get_xtal
+                0x0000000040081a78                rtc_clk_xtal_freq_get
+ *fill*         0x0000000040081aad        0x3 
+ .text.rtc_clk_cpu_freq_mhz_to_config
+                0x0000000040081ab0       0x61 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081ab0                rtc_clk_cpu_freq_mhz_to_config
+ *fill*         0x0000000040081b11        0x3 
+ .text.rtc_clk_cpu_freq_get_config
+                0x0000000040081b14       0xa9 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0xb5 (size before relaxing)
+                0x0000000040081b14                rtc_clk_cpu_freq_get_config
+ *fill*         0x0000000040081bbd        0x3 
+ .text.rtc_clk_xtal_freq_update
+                0x0000000040081bc0       0x2c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081bc0                rtc_clk_xtal_freq_update
+ .text.rtc_clk_apb_freq_update
+                0x0000000040081bec       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081bec                rtc_clk_apb_freq_update
+ *fill*         0x0000000040081c05        0x3 
+ .text.rtc_clk_cpu_freq_to_xtal
+                0x0000000040081c08       0x97 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x9b (size before relaxing)
+                0x0000000040081c08                rtc_clk_cpu_freq_to_xtal
+ *fill*         0x0000000040081c9f        0x1 
+ .text.rtc_clk_cpu_freq_to_pll_mhz
+                0x0000000040081ca0       0x9c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0xa4 (size before relaxing)
+ .text.rtc_clk_cpu_freq_to_8m
+                0x0000000040081d3c       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x5c (size before relaxing)
+ .text.rtc_clk_cpu_freq_set_config
+                0x0000000040081d94       0x5b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x76 (size before relaxing)
+                0x0000000040081d94                rtc_clk_cpu_freq_set_config
+ *fill*         0x0000000040081def        0x1 
+ .text.rtc_clk_apb_freq_get
+                0x0000000040081df0       0x27 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081df0                rtc_clk_apb_freq_get
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
+ *fill*         0x0000000040081e17        0x0 
  *(.iram .iram.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x0000000040081e0d                _text_end = ABSOLUTE (.)
-                0x0000000040081e0d                _etext = .
+                0x0000000040081e17                _text_end = ABSOLUTE (.)
+                0x0000000040081e17                _etext = .
 
 .dram0.bss      0x000000003fff0000       0x18
                 0x000000003fff0000                . = ALIGN (0x8)
@@ -1344,7 +1353,7 @@ END GROUP
  *(.jcr)
                 0x000000003fff001c                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff001c     0x1860
+.dram0.rodata   0x000000003fff001c     0x18b8
                 0x000000003fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x000000003fff001c       0x14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
@@ -1354,89 +1363,91 @@ END GROUP
                 0x000000003fff0038       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff0073        0x1 
  .rodata.str1.4
-                0x000000003fff0074      0x3e6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0x3ee (size before relaxing)
- *fill*         0x000000003fff045a        0x2 
- .rodata.__func__$4476
-                0x000000003fff045c       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003fff0074      0x3e2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0x3ea (size before relaxing)
+ *fill*         0x000000003fff0456        0x2 
+ .rodata.__func__$4477
+                0x000000003fff0458       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.str1.4
-                0x000000003fff046c       0x5f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff04cb        0x1 
+                0x000000003fff0468       0x5f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff04c7        0x1 
  .rodata.__func__$2290
-                0x000000003fff04cc       0x17 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff04e3        0x1 
+                0x000000003fff04c8       0x17 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff04df        0x1 
  .rodata.str1.4
-                0x000000003fff04e4      0x5f5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0x5fd (size before relaxing)
- *fill*         0x000000003fff0ad9        0x3 
+                0x000000003fff04e0      0x639 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0x641 (size before relaxing)
+ *fill*         0x000000003fff0b19        0x3 
+ .rodata.bootloader_utility_load_partition_table
+                0x000000003fff0b1c       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .rodata.str1.4
-                0x000000003fff0adc      0x28e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003fff0d6a        0x2 
+                0x000000003fff0b34      0x28e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003fff0dc2        0x2 
  .rodata.str1.4
-                0x000000003fff0d6c      0x163 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- *fill*         0x000000003fff0ecf        0x1 
+                0x000000003fff0dc4      0x163 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x000000003fff0f27        0x1 
  .rodata.str1.4
-                0x000000003fff0ed0      0x4d6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0f28      0x4d6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x516 (size before relaxing)
- *fill*         0x000000003fff13a6        0x2 
+ *fill*         0x000000003fff13fe        0x2 
  .rodata.str1.4
-                0x000000003fff13a8       0xc8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff1400       0xc8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$3889
-                0x000000003fff1470       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff14c8       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$3885
-                0x000000003fff14b0       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff14c9        0x3 
+                0x000000003fff1508       0x19 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff1521        0x3 
  .rodata.__func__$3865
-                0x000000003fff14cc       0x17 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff14e3        0x1 
+                0x000000003fff1524       0x17 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff153b        0x1 
  .rodata.str1.4
-                0x000000003fff14e4      0x1cb /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- *fill*         0x000000003fff16af        0x1 
+                0x000000003fff153c      0x1cb /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ *fill*         0x000000003fff1707        0x1 
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff16b0       0x64 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x000000003fff1708       0x64 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .rodata.str1.4
-                0x000000003fff1714       0xa1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000003fff17b5        0x3 
- .rodata.str1.4
-                0x000000003fff17b8       0xac /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                                         0xa9 (size before relaxing)
+                0x000000003fff176c       0xa9 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003fff1815        0x3 
  .rodata.__func__$1848
-                0x000000003fff1864       0x15 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000003fff1818       0x15 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003fff182d        0x3 
+ .rodata.str1.4
+                0x000000003fff1830       0xa4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0xa1 (size before relaxing)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003fff1879                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff18d4                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff187c                . = ((. + 0x3) & 0xfffffffffffffffc)
- *fill*         0x000000003fff1879        0x3 
-                0x000000003fff187c                __init_array_start = ABSOLUTE (.)
+                0x000000003fff18d4                . = ((. + 0x3) & 0xfffffffffffffffc)
+                0x000000003fff18d4                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x000000003fff187c                __init_array_end = ABSOLUTE (.)
+                0x000000003fff18d4                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x000000003fff187c                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003fff18d4                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff187c                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff18d4                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff187c                _rodata_end = ABSOLUTE (.)
-                0x000000003fff187c                _lit4_start = ABSOLUTE (.)
+                0x000000003fff18d4                _rodata_end = ABSOLUTE (.)
+                0x000000003fff18d4                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff187c                _lit4_end = ABSOLUTE (.)
-                0x000000003fff187c                . = ALIGN (0x4)
-                0x000000003fff187c                _heap_start = ABSOLUTE (.)
+                0x000000003fff18d4                _lit4_end = ABSOLUTE (.)
+                0x000000003fff18d4                . = ALIGN (0x4)
+                0x000000003fff18d4                _heap_start = ABSOLUTE (.)
                 [!provide]                        PROVIDE (Add2SelfBigHex256, 0x40015b7c)
                 [!provide]                        PROVIDE (AddBigHex256, 0x40015b28)
                 [!provide]                        PROVIDE (AddBigHexModP256, 0x40015c98)
@@ -1522,6 +1533,8 @@ END GROUP
                 [!provide]                        PROVIDE (_etext, 0x4000d66c)
                 [!provide]                        PROVIDE (ets_readySet_, 0x3ffe01f0)
                 [!provide]                        PROVIDE (ets_startup_callback, 0x3ffe0404)
+                [!provide]                        PROVIDE (rwip_coex_cfg, 0x3ff9914c)
+                [!provide]                        PROVIDE (rwip_priority, 0x3ff99159)
                 [!provide]                        PROVIDE (exc_cause_table, 0x3ff991d0)
                 [!provide]                        PROVIDE (_exit_r, 0x4000bd28)
                 [!provide]                        PROVIDE (free, 0x4000beb8)
@@ -2109,6 +2122,9 @@ END GROUP
                 [!provide]                        PROVIDE (lm_cmd_cmp_send, 0x40051838)
                 [!provide]                        PROVIDE (ld_sco_frm_cbk, 0x400349dc)
                 [!provide]                        PROVIDE (ld_acl_sniff_frm_cbk, 0x4003482c)
+                [!provide]                        PROVIDE (ld_inq_end, 0x4003ab48)
+                [!provide]                        PROVIDE (ld_inq_sched, 0x4003aba4)
+                [!provide]                        PROVIDE (ld_inq_frm_cbk, 0x4003ae4c)
                 [!provide]                        PROVIDE (r_ld_acl_active_hop_types_get, 0x40036e10)
                 [!provide]                        PROVIDE (r_ld_acl_afh_confirm, 0x40036d40)
                 [!provide]                        PROVIDE (r_ld_acl_afh_prepare, 0x40036c84)
@@ -3152,101 +3168,101 @@ END GROUP
                 0x000000004005da9c                PROVIDE (MD5Update, 0x4005da9c)
 OUTPUT(/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader.elf elf32-xtensa-le)
 
-.debug_frame    0x0000000000000000     0x1158
+.debug_frame    0x0000000000000000     0x11a0
  .debug_frame   0x0000000000000000       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_frame   0x0000000000000058      0x130 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_frame   0x0000000000000188       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .debug_frame   0x00000000000001b0       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x0000000000000208      0x148 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_frame   0x0000000000000350       0xe8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x0000000000000438      0x130 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_frame   0x0000000000000568       0xe8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_frame   0x0000000000000650       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x0000000000000678      0x160 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x00000000000007d8       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_frame   0x0000000000000848       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x00000000000008b8      0x208 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x0000000000000ac0       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_frame   0x0000000000000b30      0x118 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_frame   0x0000000000000c48       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_frame   0x0000000000000ca0       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_frame   0x0000000000000ce0      0x370 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x0000000000001050       0xb8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_frame   0x0000000000001108       0x28 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_frame   0x0000000000001130       0x28 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000208      0x160 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x0000000000000368       0xe8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x0000000000000450      0x130 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_frame   0x0000000000000580      0x100 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x0000000000000680       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000000000006a8      0x160 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x0000000000000808       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_frame   0x0000000000000878       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x00000000000008e8      0x208 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x0000000000000af0       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_frame   0x0000000000000b60      0x130 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_frame   0x0000000000000c90       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_frame   0x0000000000000ce8       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_frame   0x0000000000000d28       0xb8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x0000000000000de0      0x370 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x0000000000001150       0x28 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_frame   0x0000000000001178       0x28 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x0000000000000000     0xdf30
+.debug_info     0x0000000000000000     0xe0ab
  .debug_info    0x0000000000000000      0x337 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_info    0x0000000000000337     0x16ec /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_info    0x0000000000001a23      0x299 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x0000000000001cbc      0x25e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000000000001f1a     0x16c6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x00000000000035e0      0xd14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x00000000000042f4     0x2add /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x0000000000006dd1      0xd90 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_info    0x0000000000007b61      0x526 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0000000000008087     0x1521 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x00000000000095a8      0x507 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x0000000000009aaf      0x900 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x000000000000a3af      0xaf5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x000000000000aea4      0x118 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_info    0x000000000000afbc      0x3f7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_info    0x000000000000b3b3      0x339 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x000000000000b6ec      0x7ce /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_info    0x000000000000beba       0x95 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_info    0x000000000000bf4f     0x1474 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x000000000000d3c3      0x4d8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_info    0x000000000000d89b       0xcd /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x000000000000d968      0x5c8 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000001a23      0x2d7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x0000000000001cfa      0x25e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0000000000001f58     0x1771 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x00000000000036c9      0xd14 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00000000000043dd     0x2add /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x0000000000006eba      0xe11 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0000000000007ccb      0x526 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00000000000081f1     0x1521 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000009712      0x507 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0000000000009c19      0x900 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x000000000000a519      0xaf5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x000000000000b00e      0x118 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_info    0x000000000000b126      0x408 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_info    0x000000000000b52e      0x339 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x000000000000b867      0x7ce /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_info    0x000000000000c035       0x95 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_info    0x000000000000c0ca      0x4d8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x000000000000c5a2     0x1474 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x000000000000da16       0xcd /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x000000000000dae3      0x5c8 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_abbrev   0x0000000000000000     0x29db
+.debug_abbrev   0x0000000000000000     0x2a36
  .debug_abbrev  0x0000000000000000      0x15a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_abbrev  0x000000000000015a      0x420 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_abbrev  0x000000000000057a      0x127 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_abbrev  0x00000000000006a1      0x13d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x00000000000007de      0x3bf /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_abbrev  0x0000000000000b9d      0x26e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x0000000000000e0b      0x38e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_abbrev  0x0000000000001199      0x1ed /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_abbrev  0x0000000000001386      0x17b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x0000000000001501      0x2e1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x00000000000017e2      0x1b1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_abbrev  0x0000000000001993      0x1f3 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x0000000000001b86      0x22e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x0000000000001db4       0x96 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_abbrev  0x0000000000001e4a      0x147 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_abbrev  0x0000000000001f91      0x135 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_abbrev  0x00000000000020c6      0x203 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_abbrev  0x00000000000022c9       0x5b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_abbrev  0x0000000000002324      0x33e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x0000000000002662      0x1ba /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_abbrev  0x000000000000281c       0x60 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_abbrev  0x000000000000287c      0x15f /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000000000000057a      0x150 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_abbrev  0x00000000000006ca      0x13d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x0000000000000807      0x3ea /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x0000000000000bf1      0x26e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x0000000000000e5f      0x38e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_abbrev  0x00000000000011ed      0x1f4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x00000000000013e1      0x17b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x000000000000155c      0x2e1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x000000000000183d      0x1b1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_abbrev  0x00000000000019ee      0x1f3 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x0000000000001be1      0x22e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x0000000000001e0f       0x96 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_abbrev  0x0000000000001ea5      0x147 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_abbrev  0x0000000000001fec      0x135 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_abbrev  0x0000000000002121      0x203 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_abbrev  0x0000000000002324       0x5b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_abbrev  0x000000000000237f      0x1ba /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x0000000000002539      0x33e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x0000000000002877       0x60 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x00000000000028d7      0x15f /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x0000000000000000     0x5ed0
+.debug_loc      0x0000000000000000     0x6043
  .debug_loc     0x0000000000000000       0x84 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_loc     0x0000000000000084      0x774 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_loc     0x00000000000007f8       0x13 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_loc     0x000000000000080b       0x62 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x000000000000086d      0xa2e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_loc     0x000000000000129b      0x708 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x00000000000019a3      0x232 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_loc     0x0000000000001bd5      0x575 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_loc     0x000000000000214a      0x1b6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000002300      0xbd1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x0000000000002ed1      0x1f2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x00000000000030c3      0x4ad /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x0000000000003570      0xa20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x0000000000003f90       0x13 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_loc     0x0000000000003fa3      0x2e5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_loc     0x0000000000004288      0x245 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x00000000000044cd      0x1d6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_loc     0x00000000000046a3      0xbfd /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x00000000000052a0      0x227 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_loc     0x00000000000054c7       0x21 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00000000000054e8      0x9e8 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000000000007f8       0x79 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_loc     0x0000000000000871       0x62 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x00000000000008d3      0xa5f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x0000000000001332      0x708 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000000000001a3a      0x232 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_loc     0x0000000000001c6c      0x651 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x00000000000022bd      0x1b6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x0000000000002473      0xbd1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x0000000000003044      0x1f2 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x0000000000003236      0x4ad /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00000000000036e3      0xa20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x0000000000004103       0x13 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_loc     0x0000000000004116      0x2e5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_loc     0x00000000000043fb      0x245 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x0000000000004640      0x1d6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_loc     0x0000000000004816      0x227 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x0000000000004a3d      0xbfd /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x000000000000563a       0x21 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x000000000000565b      0x9e8 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_aranges  0x0000000000000000      0x768
+.debug_aranges  0x0000000000000000      0x780
  .debug_aranges
                 0x0000000000000000       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
@@ -3256,132 +3272,132 @@ OUTPUT(/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootload
  .debug_aranges
                 0x00000000000000c8       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x00000000000000f8       0x80 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000000000f8       0x88 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .debug_aranges
-                0x0000000000000178       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000180       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000000000001d8       0x78 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x00000000000001e0       0x78 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .debug_aranges
-                0x0000000000000250       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000258       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .debug_aranges
-                0x00000000000002b0       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x00000000000002c0       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x00000000000002d0       0x88 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000000002e0       0x88 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x0000000000000358       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000000000368       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .debug_aranges
-                0x0000000000000390       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+                0x00000000000003a0       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x00000000000003c8       0xc0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000000003d8       0xc0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x0000000000000488       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+                0x0000000000000498       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
  .debug_aranges
-                0x00000000000004c0       0x70 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                0x00000000000004d0       0x78 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
  .debug_aranges
-                0x0000000000000530       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000548       0x30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .debug_aranges
-                0x0000000000000560       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x0000000000000578       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .debug_aranges
-                0x0000000000000588       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+                0x00000000000005a0       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
  .debug_aranges
-                0x00000000000005a0      0x138 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000000005b8       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_aranges
-                0x00000000000006d8       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000608      0x138 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x0000000000000728       0x20 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x0000000000000740       0x20 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_aranges
-                0x0000000000000748       0x20 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x0000000000000760       0x20 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_ranges   0x0000000000000000      0x798
+.debug_ranges   0x0000000000000000      0x7c0
  .debug_ranges  0x0000000000000000       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_ranges  0x0000000000000020       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_ranges  0x0000000000000088       0x10 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .debug_ranges  0x0000000000000098       0x38 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x00000000000000d0       0x88 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_ranges  0x0000000000000158       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x00000000000001a8       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_ranges  0x0000000000000210       0xb8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_ranges  0x00000000000002c8       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x0000000000000320       0xa8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000000000003c8       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_ranges  0x0000000000000420       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x0000000000000448       0xb0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x00000000000004f8       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_ranges  0x0000000000000520       0x60 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_ranges  0x0000000000000580       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_ranges  0x00000000000005a0       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_ranges  0x00000000000005b8      0x140 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x00000000000006f8       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_ranges  0x0000000000000738       0x60 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x00000000000000d0       0x90 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x0000000000000160       0x50 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x00000000000001b0       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_ranges  0x0000000000000218       0xd0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x00000000000002e8       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x0000000000000340       0xa8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000000000003e8       0x58 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_ranges  0x0000000000000440       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x0000000000000468       0xb0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x0000000000000518       0x28 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_ranges  0x0000000000000540       0x68 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_ranges  0x00000000000005a8       0x20 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_ranges  0x00000000000005c8       0x18 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_ranges  0x00000000000005e0       0x40 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x0000000000000620      0x140 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x0000000000000760       0x60 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x73ef
- .debug_line    0x0000000000000000      0x2f7 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x00000000000002f7      0x9cb /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x0000000000000cc2      0x1db /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000000000000e9d      0x39d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000000000000123a      0xa30 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x0000000000001c6a      0x64a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00000000000022b4      0x537 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x00000000000027eb      0x765 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x0000000000002f50      0x336 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000003286      0xb37 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000003dbd      0x487 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x0000000000004244      0x4d4 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x0000000000004718      0xac6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x00000000000051de      0x1a8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_line    0x0000000000005386      0x442 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_line    0x00000000000057c8      0x3ca /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x0000000000005b92      0x3b9 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_line    0x0000000000005f4b       0xfa /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_line    0x0000000000006045      0xd77 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000006dbc      0x41c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x00000000000071d8       0x89 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x0000000000007261      0x18e /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_line     0x0000000000000000     0x7595
+ .debug_line    0x0000000000000000      0x30c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x000000000000030c      0x9d8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x0000000000000ce4      0x21d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x0000000000000f01      0x39d /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000000000000129e      0xa79 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x0000000000001d17      0x657 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000000000000236e      0x544 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x00000000000028b2      0x7ad /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x000000000000305f      0x382 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00000000000033e1      0xb44 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000003f25      0x494 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x00000000000043b9      0x4d5 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x000000000000488e      0xace /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x000000000000535c      0x1a8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_line    0x0000000000005504      0x45e /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_line    0x0000000000005962      0x3ca /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000005d2c      0x3c1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_line    0x00000000000060ed       0xfa /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_line    0x00000000000061e7      0x424 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x000000000000660b      0xd73 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x000000000000737e       0x89 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x0000000000007407      0x18e /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x4c11
+.debug_str      0x0000000000000000     0x4c66
  .debug_str     0x0000000000000000      0x310 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/main/libmain.a(bootloader_start.o)
                                         0x374 (size before relaxing)
  .debug_str     0x0000000000000310      0xaf0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0xce8 (size before relaxing)
  .debug_str     0x0000000000000e00      0x237 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                        0x392 (size before relaxing)
+                                        0x3a1 (size before relaxing)
  .debug_str     0x0000000000001037       0xa8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                         0x25c (size before relaxing)
- .debug_str     0x00000000000010df      0x4b1 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0x9b4 (size before relaxing)
- .debug_str     0x0000000000001590      0x238 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_str     0x00000000000010df      0x4b9 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0x9c8 (size before relaxing)
+ .debug_str     0x0000000000001598      0x238 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                         0x600 (size before relaxing)
- .debug_str     0x00000000000017c8     0x187f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_str     0x00000000000017d0     0x187f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                        0x1bc7 (size before relaxing)
- .debug_str     0x0000000000003047      0x3e6 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                        0x941 (size before relaxing)
- .debug_str     0x000000000000342d       0xae /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_str     0x000000000000304f      0x415 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                        0x970 (size before relaxing)
+ .debug_str     0x0000000000003464       0xae /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                         0x3d2 (size before relaxing)
- .debug_str     0x00000000000034db      0x2cf /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_str     0x0000000000003512      0x2cf /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0xa3f (size before relaxing)
- .debug_str     0x00000000000037aa      0x10a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_str     0x00000000000037e1      0x10a /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                         0x367 (size before relaxing)
- .debug_str     0x00000000000038b4      0x19b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
+ .debug_str     0x00000000000038eb      0x19b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/log/liblog.a(log.o)
                                         0x357 (size before relaxing)
- .debug_str     0x0000000000003a4f      0x367 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_str     0x0000000000003a86      0x367 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                         0x74d (size before relaxing)
- .debug_str     0x0000000000003db6       0x6c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_str     0x0000000000003ded       0x6c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(cpu_util.o)
                                         0x178 (size before relaxing)
- .debug_str     0x0000000000003e22      0x178 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
-                                        0x502 (size before relaxing)
- .debug_str     0x0000000000003f9a       0xbc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_str     0x0000000000003e59      0x196 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+                                        0x520 (size before relaxing)
+ .debug_str     0x0000000000003fef       0xbc /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
                                         0x241 (size before relaxing)
- .debug_str     0x0000000000004056      0x2b8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_str     0x00000000000040ab      0x2b8 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                         0x6b9 (size before relaxing)
- .debug_str     0x000000000000430e       0x3c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_str     0x0000000000004363       0x3c /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
                                         0x142 (size before relaxing)
- .debug_str     0x000000000000434a      0x573 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0xb00 (size before relaxing)
- .debug_str     0x00000000000048bd      0x140 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_str     0x000000000000439f      0x164 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x464 (size before relaxing)
- .debug_str     0x00000000000049fd      0x138 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_str     0x0000000000004503      0x54f /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0xb00 (size before relaxing)
+ .debug_str     0x0000000000004a52      0x138 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                         0x1de (size before relaxing)
- .debug_str     0x0000000000004b35       0xdc /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000004b8a       0xdc /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                         0x258 (size before relaxing)
 
 .comment        0x0000000000000000       0x3a
@@ -3404,8 +3420,8 @@ OUTPUT(/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootload
  .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .comment       0x000000000000003a       0x3b /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .comment       0x000000000000003a       0x3b /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .comment       0x000000000000003a       0x3b /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
@@ -3428,7 +3444,7 @@ OUTPUT(/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/bootload
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xtensa.info   0x0000000000000038        0x0 /home/ghaack/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)

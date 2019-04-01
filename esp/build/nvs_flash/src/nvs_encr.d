@@ -1,7 +1,7 @@
 src/nvs_encr.o: \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_encr.cpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_encr.hpp \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -11,7 +11,7 @@ src/nvs_encr.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -34,9 +34,9 @@ src/nvs_encr.o: \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/limits.h \
  /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h \
+ /home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/intrusive_list.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h \
@@ -48,7 +48,7 @@ src/nvs_encr.o: \
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_encr.hpp:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_err.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -68,7 +68,7 @@ src/nvs_encr.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+/home/ghaack/esp/esp-idf/components/newlib/include/xtensa/config/core-isa.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
@@ -114,11 +114,11 @@ src/nvs_encr.o: \
 
 /home/ghaack/esp/esp-idf/components/mbedtls/port/include/aes_alt.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/hwcrypto/aes.h:
+/home/ghaack/esp/esp-idf/components/mbedtls/port/include/esp32/aes.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_types.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/aes.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/aes.h:
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/src/intrusive_list.h:
 

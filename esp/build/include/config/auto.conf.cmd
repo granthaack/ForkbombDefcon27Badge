@@ -3,12 +3,14 @@ deps_config := \
 	/home/ghaack/esp/esp-idf/components/aws_iot/Kconfig \
 	/home/ghaack/esp/esp-idf/components/bt/Kconfig \
 	/home/ghaack/esp/esp-idf/components/driver/Kconfig \
+	/home/ghaack/esp/esp-idf/components/efuse/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp32/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp_adc_cal/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp_event/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp_http_client/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp_http_server/Kconfig \
 	/home/ghaack/esp/esp-idf/components/esp_https_ota/Kconfig \
+	/home/ghaack/esp/esp-idf/components/espcoredump/Kconfig \
 	/home/ghaack/esp/esp-idf/components/ethernet/Kconfig \
 	/home/ghaack/esp/esp-idf/components/fatfs/Kconfig \
 	/home/ghaack/esp/esp-idf/components/freemodbus/Kconfig \

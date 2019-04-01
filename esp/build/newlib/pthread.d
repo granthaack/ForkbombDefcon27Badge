@@ -13,6 +13,7 @@ pthread.o: /home/ghaack/esp/esp-idf/components/newlib/pthread.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h \
+ /home/ghaack/esp/esp-idf/components/newlib/platform_include/sys/time.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/pthread.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/unistd.h \
@@ -28,9 +29,9 @@ pthread.o: /home/ghaack/esp/esp-idf/components/newlib/pthread.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
@@ -66,6 +67,8 @@ pthread.o: /home/ghaack/esp/esp-idf/components/newlib/pthread.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h:
 
+/home/ghaack/esp/esp-idf/components/newlib/platform_include/sys/time.h:
+
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/pthread.h:
@@ -96,11 +99,11 @@ pthread.o: /home/ghaack/esp/esp-idf/components/newlib/pthread.c \
 
 /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_assert.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
