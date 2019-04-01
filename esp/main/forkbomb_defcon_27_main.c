@@ -15,6 +15,7 @@
 
 //I don't like that these are globals, can I make them not globals?
 SemaphoreHandle_t xDrawSemaphore;
+SemaphoreHandle_t xThermSemaphore;
 int16_t* therm_buf;
 
 typedef struct lcd_struct{
@@ -32,6 +33,7 @@ void vDrawFrame(void* pvParameters){
   //FreeRTOS housekeeping
   xlcd_struct *lcd_params;
   lcd_params = ( xlcd_struct * ) pvParameters;
+  xSemaphoreGive(xThermSemaphore);
 
   while(true) {
     if(xSemaphoreTake(xDrawSemaphore, portMAX_DELAY)){
@@ -46,6 +48,7 @@ void vDrawFrame(void* pvParameters){
         }
       }
       lcd_send_fbuff(screen_spi, fbuf);
+      xSemaphoreGive(xThermSemaphore);
       //time = esp_timer_get_time() - time;
       //printf("Sent frame in %lld microseconds\n", time);
     }
@@ -56,16 +59,22 @@ void vGetTherm(void* pvParameters){
   init_i2c();
   therm_buf = malloc(sizeof(int16_t)* 64);
   while(true){
-    //vTaskDelay(1); //Set framerate here
-    therm_read_frame(therm_buf);
-    xSemaphoreGive(xDrawSemaphore);
+    if(xSemaphoreTake(xThermSemaphore, portMAX_DELAY)){
+      vTaskDelay(1); //Set framerate here
+      therm_read_frame(therm_buf);
+      xSemaphoreGive(xDrawSemaphore);
+    }
   }
 }
 
 void app_main()
 {
-
+    //Two semaphores to prevent screen tearing, only one task can be executing
+    //at one time. I know there has to be a better way to do this, mutex or
+    //something?
     xDrawSemaphore = xSemaphoreCreateBinary();
+    xThermSemaphore = xSemaphoreCreateBinary();
+
     spi_device_handle_t screen_spi = NULL;
 
     xlcd_struct lcd_params = {screen_spi};
