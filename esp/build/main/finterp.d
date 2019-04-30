@@ -1,5 +1,5 @@
-forkbomb_defcon_27_main.o: \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/forkbomb_defcon_27_main.c \
+finterp.o: /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/finterp.c \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/finterp.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/newlib.h \
@@ -79,27 +79,14 @@ forkbomb_defcon_27_main.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/limits.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
- /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h \
  /home/ghaack/esp/esp-idf/components/driver/include/driver/i2c.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/ghaack/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fscreen.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/string.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/ghaack/esp/esp-idf/components/driver/include/driver/spi_master.h \
- /home/ghaack/esp/esp-idf/components/driver/include/driver/spi_common.h \
- /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/sys/queue.h \
- /home/ghaack/esp/esp-idf/components/soc/include/soc/spi_periph.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/ftherm.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/finterp.h
+ /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
+ /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h
+
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/finterp.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -259,12 +246,6 @@ forkbomb_defcon_27_main.o: \
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fi2c.h:
-
 /home/ghaack/esp/esp-idf/components/driver/include/driver/i2c.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h:
@@ -273,31 +254,7 @@ forkbomb_defcon_27_main.o: \
 
 /home/ghaack/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/fscreen.h:
+/home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/ghaack/esp/esp-idf/components/newlib/include/string.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h:
-
-/home/ghaack/esp/esp-idf/components/driver/include/driver/spi_master.h:
-
-/home/ghaack/esp/esp-idf/components/driver/include/driver/spi_common.h:
-
-/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/sys/queue.h:
-
-/home/ghaack/esp/esp-idf/components/soc/include/soc/spi_periph.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/ftherm.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/finterp.h:
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/./forkbomb_defcon_27_main.c:
+/home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/./finterp.c:

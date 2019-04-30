@@ -9,9 +9,11 @@
 #include "fi2c.h"
 #include "fscreen.h"
 #include "ftherm.h"
+#include "finterp.h"
 
-#define SCALE_FACTOR 30
-#define THERM_RES 8
+#define SCALE_FACTOR  10
+#define THERM_RES     8
+#define INTERP_RES    24
 
 SemaphoreHandle_t xDrawMutex;
 static int16_t* therm_buf;
@@ -26,16 +28,27 @@ void vDrawFrame(void* pvParameters){
   lcd_screen_init(screen_spi);
   //Allocate a DMA framebuffer
   uint16_t *fbuf = heap_caps_malloc(SCREEN_WIDTH*SCREEN_HEIGHT*sizeof(uint16_t), MALLOC_CAP_DMA);
+  //Allocate a buffer for interpolation
+  float *ibuf = malloc(INTERP_RES*INTERP_RES*sizeof(float));
   //FreeRTOS housekeeping
   xlcd_struct *lcd_params;
   lcd_params = ( xlcd_struct * ) pvParameters;
   while(true) {
+    //Do the interpolation
+    interpolate_image(therm_buf, THERM_RES, THERM_RES, ibuf, INTERP_RES, INTERP_RES);
+    for(uint8_t i = 0; i < INTERP_RES; i++){
+      printf('\n');
+      for(uint8_t j = 0; j < INTERP_RES; j++){
+        printf("%f ", ibuf[i*INTERP_RES + j]);
+      }
+    }
     if(xSemaphoreTake(xDrawMutex, portMAX_DELAY)){
       for(uint16_t y = 0; y < SCREEN_HEIGHT; y++){
         for(uint16_t x = 0; x < SCALE_FACTOR*THERM_RES; x++){
           fbuf[(y * SCREEN_WIDTH) + x] = therm_colors[therm_buf[((y/SCALE_FACTOR)*THERM_RES + (x/SCALE_FACTOR))]];
+          //fbuf[(y * SCREEN_WIDTH) + x] = therm_colors[therm_buf[((y/SCALE_FACTOR)*THERM_RES + (x/SCALE_FACTOR))]];
         }
-        for(uint16_t b = SCALE_FACTOR*8; b < SCREEN_WIDTH; b++){
+        for(uint16_t b = SCALE_FACTOR*THERM_RES; b < SCREEN_WIDTH; b++){
           fbuf[(y * SCREEN_WIDTH) + b] = 0x0;
         }
       }
