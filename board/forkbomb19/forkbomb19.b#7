@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5761,13 +5761,12 @@
 <vertex x="69.2454" y="45.2092" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="21">
-<vertex x="73.6454" y="36.8092" curve="-90"/>
-<vertex x="78.4454" y="32.0092"/>
-<vertex x="78.4454" y="31.7092" curve="-90"/>
-<vertex x="73.8454" y="27.1092"/>
-<vertex x="73.5454" y="27.1092" curve="-90"/>
-<vertex x="68.9454" y="31.7092"/>
-<vertex x="68.9454" y="32.1092" curve="-90"/>
+<vertex x="73.6511" y="36.7959" curve="-90"/>
+<vertex x="78.4454" y="32.0016"/>
+<vertex x="78.4454" y="31.9124" curve="-90"/>
+<vertex x="73.6422" y="27.1092"/>
+<vertex x="73.52" y="27.1092" curve="-90"/>
+<vertex x="68.7422" y="31.887" curve="-90"/>
 </polygon>
 <wire x1="66.8454" y1="23.0092" x2="72.8454" y2="23.0092" width="0.3048" layer="21"/>
 <wire x1="72.8454" y1="23.0092" x2="74.9454" y2="23.0092" width="0.3048" layer="21"/>
@@ -8084,6 +8083,15 @@ SPI TFT</text>
 <text x="6" y="-1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-right">XR</text>
 <text x="6.8" y="1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-left">YD</text>
 </package>
+<package name="TOUCHPAD_9.5MM">
+<polygon width="0.127" layer="1">
+<vertex x="0" y="4.25" curve="90"/>
+<vertex x="-4.25" y="0" curve="90"/>
+<vertex x="0" y="-4.25" curve="90"/>
+<vertex x="4.25" y="0" curve="90"/>
+</polygon>
+<smd name="P$1" x="0" y="0" dx="0" dy="0" layer="1"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Jumpers" urn="urn:adsk.eagle:library:528">
@@ -9786,7 +9794,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.2882" y="32.6781" size="0.762" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="27.2679" y="34.1986" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="4.5476" y="35.6464" smashed="yes" rot="MR270">
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="4.5476" y="35.6464" smashed="yes" rot="MR270">
 <attribute name="NAME" x="3.5712" y="34.0116" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="7.0876" y="36.2814" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -9794,13 +9802,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.718" y="45.4416" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="11.2258" y="45.6336" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
-<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="16.7142" y="33.7922" smashed="yes" rot="MR270">
-<attribute name="NAME" x="18.6954" y="32.9286" size="0.762" layer="26" font="vector" ratio="20" rot="MR270"/>
-<attribute name="VALUE" x="19.2542" y="35.0622" size="1.27" layer="28" rot="MR270"/>
-</element>
-<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="73.5736" y="32.005" smashed="yes" rot="MR180">
-<attribute name="NAME" x="72.3036" y="30.735" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
-<attribute name="VALUE" x="72.3036" y="34.545" size="1.27" layer="28" rot="MR180"/>
+<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="74.6404" y="32.005" smashed="yes" rot="MR180">
+<attribute name="NAME" x="73.3704" y="30.735" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
+<attribute name="VALUE" x="73.3704" y="34.545" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="33.7068" y="51.4706" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.594" y="53.849" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
@@ -9875,11 +9879,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-0.2578" y="43.2006" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="LOGO_R" library="forkbomb19" package="PLCC2_LED" value="" x="68.453" y="5.969" smashed="yes" rot="MR270">
-<attribute name="NAME" x="72.253" y="6.069" size="1.27" layer="22" font="vector" ratio="20" rot="MR270" align="center"/>
 <attribute name="VALUE" x="70.753" y="6.069" size="1.27" layer="22" font="vector" ratio="20" rot="MR270" align="center"/>
 </element>
 <element name="LOGO_G" library="forkbomb19" package="PLCC2_LED" value="" x="72.136" y="5.969" smashed="yes" rot="MR270">
-<attribute name="NAME" x="66.665" y="3.656" size="1.27" layer="22" font="vector" ratio="20" rot="MR270" align="center"/>
 <attribute name="VALUE" x="74.436" y="6.069" size="1.27" layer="22" font="vector" ratio="20" rot="MR270" align="center"/>
 </element>
 <element name="LOGO_B" library="forkbomb19" package="PLCC2_LED" value="" x="75.819" y="5.969" smashed="yes" rot="MR270">
@@ -9944,21 +9946,21 @@ design rules under a new name.</description>
 <attribute name="MPN" value="TSW-101-07-G-S" x="82.2198" y="17.1958" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="" x="82.2198" y="17.1958" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="" x="82.2198" y="17.1958" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="81.2546" y="15.113" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="83.8962" y="14.9606" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="X4" library="con-samtec" library_urn="urn:adsk.eagle:library:184" package="TSW-101-XX-G-S" value="POT_3V3" x="83.2866" y="44.831" smashed="yes" rot="MR0">
 <attribute name="MF" value="Samtec Inc." x="83.2866" y="44.831" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="TSW-101-07-G-S" x="83.2866" y="44.831" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="" x="83.2866" y="44.831" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="" x="83.2866" y="44.831" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="82.3722" y="42.7228" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="85.0392" y="43.0022" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="X5" library="con-samtec" library_urn="urn:adsk.eagle:library:184" package="TSW-101-XX-G-S" value="POT_SIG" x="83.058" y="38.5572" smashed="yes" rot="MR0">
 <attribute name="MF" value="Samtec Inc." x="83.058" y="38.5572" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="TSW-101-07-G-S" x="83.058" y="38.5572" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="" x="83.058" y="38.5572" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="" x="83.058" y="38.5572" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="81.3562" y="40.4622" size="0.762" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="85.5218" y="40.5892" size="0.762" layer="26" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1" value="SPST_TACT-KMR2" x="37.6936" y="44.4754" smashed="yes" rot="MR270"/>
 <element name="TX" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="" x="10.3886" y="38.608" smashed="yes" rot="MR270">
@@ -9990,6 +9992,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.1424" y="27.178" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="U$2" library="forkbomb19" package="SPI_TFT" value="SPI_TFT" x="45.085" y="28.3718" smashed="yes" rot="R90"/>
+<element name="TOUCH" library="forkbomb19" package="TOUCHPAD_9.5MM" value="TOUCHPAD" x="73.6346" y="31.9278" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -10280,6 +10283,8 @@ design rules under a new name.</description>
 <wire x1="25.2994" y1="32.9286" x2="28.6106" y2="32.9286" width="0.2032" layer="16"/>
 <wire x1="30.5054" y1="34.8234" x2="30.5054" y2="36.1442" width="0.2032" layer="16"/>
 <wire x1="28.6106" y1="32.9286" x2="30.5054" y2="34.8234" width="0.2032" layer="16"/>
+<contactref element="U3" pad="9"/>
+<wire x1="3.8648" y1="40.178" x2="8.1252" y2="47.194" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="6"/>
@@ -10300,10 +10305,15 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="U1" pad="7"/>
 <contactref element="X5" pad="1"/>
-<wire x1="83.058" y1="38.5572" x2="47.4218" y2="38.5572" width="0.2032" layer="1"/>
 <wire x1="38.3492" y1="47.6298" x2="31.7504" y2="47.6298" width="0.2032" layer="1"/>
 <via x="31.7504" y="47.6298" extent="1-16" drill="0.35"/>
-<wire x1="47.4218" y1="38.5572" x2="38.3492" y2="47.6298" width="0.2032" layer="1"/>
+<via x="52.9082" y="34.8234" extent="1-16" drill="0.35"/>
+<wire x1="53.7036" y1="35.6188" x2="52.9082" y2="34.8234" width="0.2032" layer="16"/>
+<wire x1="63.24539375" y1="35.6188" x2="53.7036" y2="35.6188" width="0.2032" layer="16"/>
+<wire x1="83.058" y1="38.5572" x2="66.18379375" y2="38.5572" width="0.2032" layer="16"/>
+<wire x1="66.18379375" y1="38.5572" x2="63.24539375" y2="35.6188" width="0.2032" layer="16"/>
+<wire x1="52.9082" y1="34.8234" x2="51.1556" y2="34.8234" width="0.2032" layer="1"/>
+<wire x1="51.1556" y1="34.8234" x2="38.3492" y2="47.6298" width="0.2032" layer="1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="U1" pad="33"/>
@@ -10363,16 +10373,19 @@ design rules under a new name.</description>
 <signal name="TOUCH1">
 <contactref element="U1" pad="26"/>
 <contactref element="C3" pad="1"/>
-<wire x1="72.6236" y1="32.005" x2="67.9272625" y2="32.005" width="0.2032" layer="16"/>
+<wire x1="73.6904" y1="32.005" x2="67.9272625" y2="32.005" width="0.2032" layer="16"/>
 <wire x1="67.9272625" y1="32.005" x2="52.8736625" y2="16.9514" width="0.2032" layer="16"/>
 <via x="52.8736625" y="16.9514" extent="1-16" drill="0.35"/>
-<wire x1="52.8736625" y1="16.9514" x2="45.9994" y2="16.9514" width="0.2032" layer="1"/>
-<wire x1="45.9994" y1="16.9514" x2="40.005" y2="16.9514" width="0.2032" layer="1"/>
-<wire x1="40.005" y1="16.9514" x2="25.8984" y2="16.9514" width="0.2032" layer="1"/>
+<wire x1="52.8736625" y1="16.9514" x2="25.8984" y2="16.9514" width="0.2032" layer="1"/>
 <wire x1="25.8984" y1="16.9514" x2="13.589" y2="29.2608" width="0.2032" layer="1"/>
 <wire x1="13.589" y1="29.2608" x2="13.589" y2="39.8484" width="0.2032" layer="1"/>
 <wire x1="13.589" y1="39.8484" x2="13.7504" y2="40.0098" width="0.2032" layer="1"/>
 <via x="13.7504" y="40.0098" extent="1-16" drill="0.35"/>
+<contactref element="TOUCH" pad="P$1"/>
+<via x="73.6346" y="31.9278" extent="1-16" drill="0.35"/>
+<wire x1="73.6346" y1="31.9278" x2="73.6346" y2="31.9492" width="0.2032" layer="16"/>
+<wire x1="73.6346" y1="31.9492" x2="73.6904" y2="32.005" width="0.2032" layer="16"/>
+<via x="73.6904" y="32.005" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$7">
 <contactref element="U2" pad="5"/>
@@ -10590,9 +10603,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TOUCH2">
 <contactref element="U1" pad="24"/>
-<contactref element="C2" pad="1"/>
-<wire x1="17.0354" y1="37.2498" x2="17.0354" y2="35.0634" width="0.6096" layer="16"/>
-<wire x1="17.0354" y1="35.0634" x2="16.7142" y2="34.7422" width="0.6096" layer="16"/>
+<wire x1="16.7142" y1="36.9286" x2="17.0354" y2="37.2498" width="0.2032" layer="16"/>
 </signal>
 <signal name="RDY_2_SND">
 <contactref element="R6" pad="2"/>
