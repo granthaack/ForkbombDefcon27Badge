@@ -1438,6 +1438,15 @@ SPI TFT</text>
 <text x="6" y="-1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-right">XR</text>
 <text x="6.8" y="1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-left">YD</text>
 </package>
+<package name="TOUCHPAD_9.5MM">
+<polygon width="0.127" layer="1">
+<vertex x="0" y="4.25" curve="90"/>
+<vertex x="-4.25" y="0" curve="90"/>
+<vertex x="0" y="-4.25" curve="90"/>
+<vertex x="4.25" y="0" curve="90"/>
+</polygon>
+<smd name="P$1" x="0" y="0" dx="0" dy="0" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP-WROOM-03">
@@ -1711,6 +1720,11 @@ Op. Temp: -40~85°C</text>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-27.94" x2="0" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="0" y1="-27.94" x2="0" y2="25.4" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TOUCHPAD">
+<circle x="0" y="0" radius="7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-12.7" length="middle" rot="R90"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2013,6 +2027,21 @@ Op. Temp: -40~85°C</text>
 <connect gate="G$1" pin="XR" pad="P$17"/>
 <connect gate="G$1" pin="YD" pad="P$18"/>
 <connect gate="G$1" pin="YU" pad="P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TOUCHPAD">
+<gates>
+<gate name="G$1" symbol="TOUCHPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TOUCHPAD_9.5MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21550,7 +21579,6 @@ Source: www.kingbright.com</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
@@ -21629,6 +21657,7 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="TOUCH" library="forkbomb19" deviceset="TOUCHPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21675,10 +21704,6 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="+3V2" gate="G$1" x="66.04" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-30.48" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C2" gate="G$1" x="60.96" y="27.94" smashed="yes">
-<attribute name="NAME" x="61.976" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="61.976" y="23.749" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="60.96" y="17.78" smashed="yes">
 <attribute name="NAME" x="61.976" y="18.415" size="1.778" layer="95"/>
@@ -21947,6 +21972,9 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="+3V13" gate="G$1" x="-38.1" y="-73.66" smashed="yes">
 <attribute name="VALUE" x="-40.64" y="-78.74" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="TOUCH" gate="G$1" x="68.58" y="33.02" smashed="yes">
+<attribute name="NAME" x="68.58" y="35.56" size="1.778" layer="94" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -22363,9 +22391,10 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="50.8" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="20.32"/>
 <label x="50.8" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="TOUCH" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -22586,13 +22615,6 @@ Source: www.kingbright.com</description>
 <wire x1="17.78" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="22.86"/>
 <label x="25.4" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<junction x="60.96" y="30.48"/>
-<label x="50.8" y="30.48" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="RDY_2_SND" class="0">
