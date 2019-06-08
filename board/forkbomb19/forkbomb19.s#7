@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21570,7 +21570,7 @@ Source: www.kingbright.com</description>
 <part name="U1" library="forkbomb19" deviceset="ESP-WROOM-03" device=""/>
 <part name="U2" library="forkbomb19" deviceset="MICROBUILDER_AMG8833" device=""/>
 <part name="HRDRST" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK_ROUND" package3d_urn="urn:adsk.eagle:package:39280/1" value=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -22130,6 +22130,12 @@ Source: www.kingbright.com</description>
 <pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="185.42" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 <label x="180.34" y="30.48" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="#RST"/>
+<wire x1="139.7" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<label x="147.32" y="73.66" size="1.778" layer="95"/>
+<junction x="147.32" y="73.66"/>
 </segment>
 </net>
 <net name="GND" class="0">
