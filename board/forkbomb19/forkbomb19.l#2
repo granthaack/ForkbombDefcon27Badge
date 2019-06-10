@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1685,12 +1685,6 @@ SPI TFT</text>
 <text x="6.8" y="1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-left">YD</text>
 </package>
 <package name="TOUCHPAD_9.5MM">
-<polygon width="0.127" layer="1">
-<vertex x="0" y="4.25" curve="90"/>
-<vertex x="-4.25" y="0" curve="90"/>
-<vertex x="0" y="-4.25" curve="90"/>
-<vertex x="4.25" y="0" curve="90"/>
-</polygon>
 <smd name="P$1" x="0" y="0" dx="0" dy="0" layer="1"/>
 </package>
 <package name="AA_BATT">
@@ -1734,7 +1728,9 @@ SPI TFT</text>
 <wire x1="-1.9" y1="-3.8" x2="-1.9" y2="-1.8" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-1.8" x2="-0.4" y2="-1.8" width="0.127" layer="21"/>
 <wire x1="-0.4" y1="-1.8" x2="-0.4" y2="-3.8" width="0.127" layer="21"/>
-<text x="-4.5" y="2.9" size="1.27" layer="21" font="vector" ratio="20">SW$1</text>
+</package>
+<package name="TOUCH_BLANK">
+<smd name="P$1" x="0" y="0" dx="0.0254" dy="0.0254" layer="1"/>
 </package>
 </packages>
 <symbols>
