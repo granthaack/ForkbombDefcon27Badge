@@ -38006,7 +38006,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="TOUCH" library="forkbomb19" deviceset="TOUCHPAD" device=""/>
 <part name="U4" library="microbuilder" deviceset="VREG_TPS6103X" device="" value="TPS61090RSAR"/>
-<part name="L2" library="microbuilder" deviceset="INDUCTOR" device="TDK_VLC5045" value="6.8uH"/>
+<part name="L1" library="microbuilder" deviceset="INDUCTOR" device="TDK_VLC5045" value="6.8uH"/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10uF"/>
@@ -38261,7 +38261,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="-134.62" y="53.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-134.62" y="7.62" size="1.6764" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="-152.4" y="40.64" smashed="yes">
+<instance part="L1" gate="G$1" x="-152.4" y="40.64" smashed="yes">
 <attribute name="NAME" x="-152.4" y="43.18" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="-152.4" y="39.1" size="1.778" layer="96" align="center"/>
 </instance>
@@ -39180,7 +39180,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SW"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="40.64" x2="-147.32" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39209,7 +39209,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-162.56" y1="35.56" x2="-170.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-170.18" y1="35.56" x2="-170.18" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-157.48" y1="40.64" x2="-170.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="40.64" x2="-170.18" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-170.18" y="35.56"/>

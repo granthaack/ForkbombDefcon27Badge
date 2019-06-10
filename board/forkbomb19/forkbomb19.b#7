@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10753,6 +10753,95 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:footprint:37008/1" library_version="1">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
+&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="CREATIVE_COMMONS" urn="urn:adsk.eagle:footprint:37005/1" library_version="1">
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:package:37100/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-S_COPPER"/>
+</packageinstances>
+</package3d>
+<package3d name="CREATIVE_COMMONS" urn="urn:adsk.eagle:package:37121/1" type="box" library_version="1">
+<description>Creative Commons License Template
+CC BY-SA 4.0 License with link to license and placeholder for designer name.
+Devices using:
+FRAME_LEDGER
+FRAME_LETTER</description>
+<packageinstances>
+<packageinstance name="CREATIVE_COMMONS"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10956,10 +11045,6 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="33.6602" y="52.9256" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.268" y="51.3416" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
-</element>
-<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="73.9546" y="31.9034" smashed="yes" rot="MR180">
-<attribute name="NAME" x="75.9816" y="32.9428" size="0.762" layer="26" font="vector" ratio="20" rot="MR0"/>
-<attribute name="VALUE" x="72.6846" y="34.4434" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="U3" library="forkbomb19" package="QFN24_4MM_SMSC" value="" x="6.1252" y="46.944" smashed="yes" rot="MR270">
 <attribute name="NAME" x="2.549" y="49.1976" size="0.762" layer="26" font="vector" ratio="20" rot="MR180"/>
@@ -11204,6 +11289,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.629" y="10.541" size="0.762" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="77.0636" y="7.7978" size="1.27" layer="28" rot="MR0"/>
 </element>
+<element name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="OSHW-LOGO-S_COPPER" package3d_urn="urn:adsk.eagle:package:37100/1" value="OSHW-LOGOS-COPPER" x="-1.651" y="-2.8194" smashed="yes"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="CREATIVE_COMMONS" package3d_urn="urn:adsk.eagle:package:37121/1" value="FRAME-LEDGER" x="17.7038" y="-11.7348" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -11596,19 +11683,13 @@ design rules under a new name.</description>
 <contactref element="U1" pad="25"/>
 </signal>
 <signal name="TOUCH1">
-<contactref element="C3" pad="1"/>
 <via x="13.7504" y="40.0098" extent="1-16" drill="0.35"/>
-<contactref element="TOUCH" pad="P$1"/>
-<via x="72.9488" y="31.8262" extent="1-16" drill="0.35"/>
-<wire x1="72.9488" y1="31.8262" x2="72.9488" y2="31.8476" width="0.2032" layer="16"/>
-<wire x1="72.9488" y1="31.8476" x2="73.0046" y2="31.9034" width="0.2032" layer="16"/>
 <contactref element="U1" pad="26"/>
 <wire x1="31.1912" y1="19.8628" x2="15.6972" y2="35.3568" width="0.2032" layer="1"/>
 <wire x1="31.1912" y1="19.8628" x2="52.832" y2="19.8628" width="0.2032" layer="1"/>
 <wire x1="52.832" y1="19.8628" x2="52.7558" y2="19.939" width="0.2032" layer="1"/>
 <via x="52.7558" y="19.939" extent="1-16" drill="0.35"/>
 <wire x1="52.7558" y1="19.939" x2="64.7202" y2="31.9034" width="0.2032" layer="16"/>
-<wire x1="64.7202" y1="31.9034" x2="73.0046" y2="31.9034" width="0.2032" layer="16"/>
 <wire x1="15.0066" y1="40.0098" x2="13.7504" y2="40.0098" width="0.2032" layer="1"/>
 <wire x1="15.6972" y1="35.3568" x2="15.6972" y2="39.3192" width="0.2032" layer="1"/>
 <wire x1="15.6972" y1="39.3192" x2="15.0066" y2="40.0098" width="0.2032" layer="1"/>
@@ -11770,6 +11851,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="TOUCH2">
 <contactref element="U1" pad="24"/>
+<contactref element="TOUCH" pad="P$1"/>
+<via x="72.9488" y="31.8262" extent="1-16" drill="0.35"/>
+<wire x1="72.9488" y1="31.8262" x2="72.9488" y2="31.8476" width="0.2032" layer="16"/>
+<wire x1="17.0354" y1="37.2498" x2="72.9488" y2="31.8262" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RDY_2_SND">
 <contactref element="R6" pad="2"/>
