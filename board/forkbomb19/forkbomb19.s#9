@@ -38244,7 +38244,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="X3" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-101-*-G-S" device="" technology="07" value="POT_GND"/>
 <part name="X4" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-101-*-G-S" device="" technology="07" value="POT_3V3"/>
 <part name="X5" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-101-*-G-S" device="" technology="07" value="POT_SIG"/>
-<part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
+<part name="SOFTRESET" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="TX" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="RX" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="300"/>
@@ -38320,7 +38320,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$8" library="forkbomb19" deviceset="JS202011JAQN" device=""/>
-<part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
+<part name="HARDRST" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -38462,7 +38462,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="VALUE" x="48.26" y="-41.91" size="1.778" layer="96"/>
 <attribute name="NAME" x="59.69" y="-41.402" size="1.524" layer="95"/>
 </instance>
-<instance part="SW1" gate="G$1" x="43.18" y="-25.4" smashed="yes" rot="R270">
+<instance part="SOFTRESET" gate="G$1" x="43.18" y="-25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.64" y="-19.05" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.355" y="-21.59" size="1.778" layer="96"/>
 </instance>
@@ -38721,7 +38721,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="VALUE" x="93.98" y="-30.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$8" gate="G$1" x="-162.56" y="86.36" smashed="yes"/>
-<instance part="SW2" gate="G$1" x="-40.64" y="33.02" smashed="yes" rot="R270">
+<instance part="HARDRST" gate="G$1" x="-40.64" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-43.18" y="39.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-37.465" y="36.83" size="1.778" layer="96"/>
 </instance>
@@ -38849,8 +38849,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-25.4" y1="30.48" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-25.4" y="30.48"/>
 <label x="-17.78" y="30.48" size="1.778" layer="95" rot="R180"/>
-<pinref part="SW2" gate="G$1" pin="S1"/>
-<pinref part="SW2" gate="G$1" pin="S"/>
+<pinref part="HARDRST" gate="G$1" pin="S1"/>
+<pinref part="HARDRST" gate="G$1" pin="S"/>
 <wire x1="-35.56" y1="33.02" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-35.56" y="30.48"/>
 </segment>
@@ -38871,8 +38871,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-48.26" y1="27.94" x2="-48.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="P1"/>
-<pinref part="SW2" gate="G$1" pin="P"/>
+<pinref part="HARDRST" gate="G$1" pin="P1"/>
+<pinref part="HARDRST" gate="G$1" pin="P"/>
 <wire x1="-45.72" y1="33.02" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-45.72" y="30.48"/>
 </segment>
@@ -38904,8 +38904,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="48.26" y1="-27.94" x2="55.88" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="55.88" y1="-27.94" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="S1"/>
-<pinref part="SW1" gate="G$1" pin="S"/>
+<pinref part="SOFTRESET" gate="G$1" pin="S1"/>
+<pinref part="SOFTRESET" gate="G$1" pin="S"/>
 <wire x1="48.26" y1="-25.4" x2="48.26" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="48.26" y="-27.94"/>
 </segment>
@@ -39091,8 +39091,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO34"/>
 <wire x1="17.78" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P1"/>
-<pinref part="SW1" gate="G$1" pin="P"/>
+<pinref part="SOFTRESET" gate="G$1" pin="P1"/>
+<pinref part="SOFTRESET" gate="G$1" pin="P"/>
 <wire x1="38.1" y1="-25.4" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="38.1" y="-27.94"/>
 </segment>
