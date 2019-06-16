@@ -2637,6 +2637,9 @@ Op. Temp: -40~85°C</text>
 </technologies>
 </device>
 <device name="TOUCH_BLANK" package="TOUCH_BLANK">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

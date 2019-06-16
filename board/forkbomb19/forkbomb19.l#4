@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1685,12 +1685,6 @@ SPI TFT</text>
 <text x="6.8" y="1.2" size="0.8128" layer="21" font="vector" ratio="20" rot="R90" align="center-left">YD</text>
 </package>
 <package name="TOUCHPAD_9.5MM">
-<polygon width="0.127" layer="1">
-<vertex x="0" y="4.25" curve="90"/>
-<vertex x="-4.25" y="0" curve="90"/>
-<vertex x="0" y="-4.25" curve="90"/>
-<vertex x="4.25" y="0" curve="90"/>
-</polygon>
 <smd name="P$1" x="0" y="0" dx="0" dy="0" layer="1"/>
 </package>
 <package name="AA_BATT">
