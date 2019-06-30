@@ -34333,12 +34333,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="198.12" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="193.04" y="48.26" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="#RST"/>
-<wire x1="152.4" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="160.02" y="91.44" size="1.778" layer="95"/>
-<junction x="160.02" y="91.44"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>

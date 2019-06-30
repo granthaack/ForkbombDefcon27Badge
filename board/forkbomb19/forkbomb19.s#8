@@ -42711,22 +42711,6 @@ FRAME_LETTER</description>
 <label x="-30.48" y="-104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="TSCRN_Y2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO27"/>
-<wire x1="10.16" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
-<label x="17.78" y="5.08" size="1.778" layer="95"/>
-<junction x="17.78" y="5.08"/>
-</segment>
-</net>
-<net name="TSCRN_Y1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO26"/>
-<wire x1="10.16" y1="7.62" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
-<label x="17.78" y="7.62" size="1.778" layer="95"/>
-<junction x="17.78" y="7.62"/>
-</segment>
-</net>
 <net name="SCRN_MISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO25"/>
@@ -42868,22 +42852,6 @@ FRAME_LETTER</description>
 <pinref part="U$2" gate="G$1" pin="!RESET"/>
 <wire x1="-22.86" y1="-93.98" x2="-30.48" y2="-93.98" width="0.1524" layer="91"/>
 <label x="-30.48" y="-93.98" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="TSCRN_X1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO14"/>
-<wire x1="10.16" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
-<label x="17.78" y="35.56" size="1.778" layer="95"/>
-<junction x="17.78" y="35.56"/>
-</segment>
-</net>
-<net name="TSCRN_X2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO12"/>
-<wire x1="10.16" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<label x="17.78" y="40.64" size="1.778" layer="95"/>
-<junction x="17.78" y="40.64"/>
 </segment>
 </net>
 <net name="N$19" class="0">
