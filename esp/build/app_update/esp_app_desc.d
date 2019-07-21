@@ -1,7 +1,7 @@
 esp_app_desc.o: \
  /home/ghaack/esp/esp-idf/components/app_update/esp_app_desc.c \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_partition.h \
@@ -17,7 +17,7 @@ esp_app_desc.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/app_update/include/esp_ota_ops.h:
 

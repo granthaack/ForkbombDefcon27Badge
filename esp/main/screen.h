@@ -34,7 +34,9 @@ void lcd_spi_pre_transfer_callback(spi_transaction_t *t);
 void lcd_screen_init(spi_device_handle_t spi);
 //Initialize the SPI bus for the LCD
 spi_device_handle_t lcd_spi_init();
-//Send the frame buffer to the LCD for drawing
+//Send the frame buffer of uint16_t's to the LCD for drawing
+void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
+//Send a frame buffer of floats to the LCD for drawing
 void lcd_send_fbuff(spi_device_handle_t spi, uint16_t *fbuff);
 
 //A table of RGB565 colors for the thermal camera. Thanks Adafruit!

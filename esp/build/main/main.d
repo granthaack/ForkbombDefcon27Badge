@@ -1,7 +1,7 @@
-main.o: /home/ghaack/projects/cmpe195/thermal_cam/main/main.c \
+main.o: /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/main.c \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -53,10 +53,10 @@ main.o: /home/ghaack/projects/cmpe195/thermal_cam/main/main.c \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /home/ghaack/projects/cmpe195/thermal_cam/main/i2c.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/i2c.h \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/ghaack/projects/cmpe195/thermal_cam/main/screen.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/screen.h \
  /home/ghaack/esp/esp-idf/components/driver/include/driver/spi_master.h \
  /home/ghaack/esp/esp-idf/components/driver/include/driver/spi_common.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/lldesc.h \
@@ -67,14 +67,15 @@ main.o: /home/ghaack/projects/cmpe195/thermal_cam/main/main.c \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /home/ghaack/esp/esp-idf/components/soc/include/hal/spi_types.h \
- /home/ghaack/projects/cmpe195/thermal_cam/main/MLX90640_I2C_Driver.h \
- /home/ghaack/projects/cmpe195/thermal_cam/main/MLX90640_API.h
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/interp.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/MLX90640_I2C_Driver.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/MLX90640_API.h
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -178,13 +179,13 @@ main.o: /home/ghaack/projects/cmpe195/thermal_cam/main/main.c \
 
 /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/main/i2c.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/i2c.h:
 
 /home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/main/screen.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/screen.h:
 
 /home/ghaack/esp/esp-idf/components/driver/include/driver/spi_master.h:
 
@@ -206,7 +207,9 @@ main.o: /home/ghaack/projects/cmpe195/thermal_cam/main/main.c \
 
 /home/ghaack/esp/esp-idf/components/soc/include/hal/spi_types.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/main/MLX90640_I2C_Driver.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/interp.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/main/MLX90640_API.h:
-/home/ghaack/projects/cmpe195/thermal_cam/main/./main.c:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/MLX90640_I2C_Driver.h:
+
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/MLX90640_API.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/./main.c:

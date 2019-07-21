@@ -14,6 +14,12 @@ void set_point(float *p, uint8_t rows, uint8_t cols, int8_t x, int8_t y, float f
   p[y * cols + x] = f;
 }
 
+void set_point_uint16(uint16_t *p, uint8_t rows, uint8_t cols, int8_t x, int8_t y, float f) {
+  if ((x < 0) || (x >= cols)) return;
+  if ((y < 0) || (y >= rows)) return;
+  p[y * cols + x] = (uint16_t)f;
+}
+
 // src is a grid src_rows * src_cols
 // dest is a pre-allocated grid, dest_rows*dest_cols
 void interpolate_image(float *src, uint8_t src_rows, uint8_t src_cols,
@@ -42,6 +48,36 @@ void interpolate_image(float *src, uint8_t src_rows, uint8_t src_cols,
        float out = bicubicInterpolate(adj_2d, frac_x, frac_y);
        //Serial.print("\tInterp: "); Serial.println(out);
        set_point(dest, dest_rows, dest_cols, x_idx, y_idx, out);
+    }
+  }
+}
+
+void interpolate_image_uint16(float *src, uint8_t src_rows, uint8_t src_cols,
+                       uint16_t *dest, uint8_t dest_rows, uint16_t dest_cols) {
+  float mu_x = (src_cols - 1.0) / (dest_cols - 1.0);
+  float mu_y = (src_rows - 1.0) / (dest_rows - 1.0);
+
+  float adj_2d[16]; // matrix for storing adjacents
+
+  for (uint8_t y_idx=0; y_idx < dest_rows; y_idx++) {
+    for (uint8_t x_idx=0; x_idx < dest_cols; x_idx++) {
+       float x = x_idx * mu_x;
+       float y = y_idx * mu_y;
+       //Serial.print("("); Serial.print(y_idx); Serial.print(", "); Serial.print(x_idx); Serial.print(") = ");
+       //Serial.print("("); Serial.print(y); Serial.print(", "); Serial.print(x); Serial.print(") = ");
+       get_adjacents_2d(src, adj_2d, src_rows, src_cols, x, y);
+       /*
+       Serial.print("[");
+       for (uint8_t i=0; i<16; i++) {
+         Serial.print(adj_2d[i]); Serial.print(", ");
+       }
+       Serial.println("]");
+       */
+       float frac_x = x - (int)x; // we only need the ~delta~ between the points
+       float frac_y = y - (int)y; // we only need the ~delta~ between the points
+       float out = bicubicInterpolate(adj_2d, frac_x, frac_y);
+       //Serial.print("\tInterp: "); Serial.println(out);
+       set_point_uint16(dest, dest_rows, dest_cols, x_idx, y_idx, out);
     }
   }
 }

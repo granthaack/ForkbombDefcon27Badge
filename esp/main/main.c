@@ -11,16 +11,16 @@
 #include "i2c.h"
 #include "screen.h"
 //#include "therm.h"
-//#include "interp.h"
+#include "interp.h"
 #include "MLX90640_I2C_Driver.h"
 #include "MLX90640_API.h"
 
 
-#define SCALE_FACTOR  10
+#define SCALE_FACTOR  3
 #define THERM_WIDTH  32
 #define THERM_HEIGHT  24
-#define INTERP_RES_X  96
-#define INTERP_RES_Y  128
+#define INTERP_WIDTH  96
+#define INTERP_HEIGHT  128
 #define SLAVE_ADDR    0x33
 
 static float* therm_buf;
@@ -86,10 +86,29 @@ void xThermal(void* p){
     printf("Mode: Interleaved");
   }
   uint16_t fbuf_index = 0;
-  uint16_t tbuf_index = 0;
+  uint16_t ibuf_index = 0;
+  float* ibuf = malloc(sizeof(float)*INTERP_WIDTH*INTERP_HEIGHT);
+  if(ibuf == NULL){
+    printf("ERROR: Could not allocate space for interpolate buffer!\n");
+  }
   while(1){
     MLX90640_GetFrameData (0x33, mlx90640Frame);
     MLX90640_GetImage(mlx90640Frame, &mlx90640, mlx90640Image);
+    interpolate_image(mlx90640Image, THERM_HEIGHT, THERM_WIDTH, ibuf, INTERP_WIDTH, INTERP_HEIGHT);
+    for(uint16_t y = 1; y <= SCREEN_HEIGHT; y++){
+      for(uint16_t x = 1; x <= SCREEN_WIDTH; x++){
+        fbuf_index = SCREEN_WIDTH*y + x;
+        ibuf_index = ((y/SCALE_FACTOR)*INTERP_WIDTH + (x/SCALE_FACTOR));
+        //printf("fbuf_index = %i; tbuf_index = %i\n", fbuf_index, ibuf_index);
+        fbuf[fbuf_index] = therm_colors[(uint8_t)ibuf[ibuf_index]];
+        esp_task_wdt_feed();
+      }
+      for(uint16_t b = SCALE_FACTOR*INTERP_WIDTH; b < SCREEN_WIDTH; b++){
+        fbuf[(y * SCREEN_WIDTH) + b] = 0x0;
+      }
+    }
+    printf("Sent frame!\n");
+    lcd_send_fbuff(screen_spi, fbuf);
     /*
     for(uint8_t y = 0; y < THERM_WIDTH; y++){
       for(uint8_t x = 0; x < THERM_HEIGHT; x++){
@@ -97,21 +116,14 @@ void xThermal(void* p){
       }
       printf("\n");
     }
-    */
-    printf("\n\n");
-    for(uint16_t y = 0; y < SCREEN_HEIGHT; y++){
-      for(uint16_t x = 0; x < SCREEN_WIDTH; x++){
-        fbuf_index = SCREEN_WIDTH*y + x;
-        tbuf_index = ((y/SCALE_FACTOR)*THERM_WIDTH + (x/SCALE_FACTOR));
-        //printf("fbuf_index = %i; tbuf_index = %i\n", fbuf_index, tbuf_index);
-        fbuf[fbuf_index] = therm_colors[(uint8_t)mlx90640Image[tbuf_index]];
-        esp_task_wdt_feed();
-      }
-    }
-    lcd_send_fbuff(screen_spi, fbuf);
+    printf("\n\n");*/
+
   };
 }
 /*
+
+
+lcd_send_fbuff(screen_spi, fbuf);
 
 void app_main(){
   init_i2c();

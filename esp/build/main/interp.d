@@ -1,8 +1,8 @@
-interp.o: /home/ghaack/projects/cmpe195/thermal_cam/main/interp.c \
- /home/ghaack/projects/cmpe195/thermal_cam/main/interp.h \
+interp.o: /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/interp.c \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/main/interp.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h \
+ /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -56,13 +56,13 @@ interp.o: /home/ghaack/projects/cmpe195/thermal_cam/main/interp.c \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h
 
-/home/ghaack/projects/cmpe195/thermal_cam/main/interp.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/interp.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -167,4 +167,4 @@ interp.o: /home/ghaack/projects/cmpe195/thermal_cam/main/interp.c \
 /home/ghaack/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/ghaack/esp/esp-idf/components/log/include/esp_log_internal.h:
-/home/ghaack/projects/cmpe195/thermal_cam/main/./interp.c:
+/home/ghaack/projects/ForkbombDefcon27Badge/esp/main/./interp.c:
