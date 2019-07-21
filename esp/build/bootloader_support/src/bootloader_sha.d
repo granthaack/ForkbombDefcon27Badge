@@ -26,7 +26,7 @@ src/bootloader_sha.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/string.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -92,7 +92,7 @@ src/bootloader_sha.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 

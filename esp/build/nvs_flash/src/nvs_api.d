@@ -2,15 +2,10 @@ src/nvs_api.o: \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h \
+ /home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/compressed_enum_table.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_page.hpp \
@@ -22,6 +17,10 @@ src/nvs_api.o: \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_partition.h \
+ /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_flash.h \
+ /home/ghaack/esp/esp-idf/components/soc/include/hal/spi_flash_types.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /home/ghaack/esp/esp-idf/components/soc/include/hal/esp_flash_err.h \
  /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -37,8 +36,6 @@ src/nvs_api.o: \
  /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/portable.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -50,28 +47,11 @@ src/nvs_api.o: \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_timer.h \
  /home/ghaack/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/ghaack/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/ghaack/esp/esp-idf/components/soc/include/soc/soc_memory_layout.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_system.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_sleep.h \
- /home/ghaack/esp/esp-idf/components/driver/include/driver/gpio.h \
- /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
- /home/ghaack/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
- /home/ghaack/esp/esp-idf/components/driver/include/driver/touch_pad.h \
- /home/ghaack/esp/esp-idf/components/esp32/include/esp_intr.h \
- /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h \
- /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/ghaack/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/crc.h \
@@ -82,23 +62,13 @@ src/nvs_api.o: \
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
+/home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h:
+
 /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-/home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h:
-
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/alloca.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp:
 
@@ -121,6 +91,14 @@ src/nvs_api.o: \
 /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
 /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/home/ghaack/esp/esp-idf/components/spi_flash/include/esp_flash.h:
+
+/home/ghaack/esp/esp-idf/components/soc/include/hal/spi_flash_types.h:
+
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
+
+/home/ghaack/esp/esp-idf/components/soc/include/hal/esp_flash_err.h:
 
 /home/ghaack/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
@@ -152,10 +130,6 @@ src/nvs_api.o: \
 
 /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h:
-
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/projdefs.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/portable.h:
@@ -178,49 +152,15 @@ src/nvs_api.o: \
 
 /home/ghaack/esp/esp-idf/components/heap/include/multi_heap.h:
 
-/home/ghaack/esp/esp-idf/components/soc/include/soc/soc_memory_layout.h:
-
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h:
-
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
 
 /home/ghaack/esp/esp-idf/components/esp_common/include/esp_system.h:
 
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_sleep.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-/home/ghaack/esp/esp-idf/components/driver/include/driver/gpio.h:
-
-/home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
-
-/home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h:
-
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_intr_alloc.h:
-
-/home/ghaack/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
-
-/home/ghaack/esp/esp-idf/components/driver/include/driver/touch_pad.h:
-
-/home/ghaack/esp/esp-idf/components/esp32/include/esp_intr.h:
-
-/home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_api.h:
-
-/home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
+/home/ghaack/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 

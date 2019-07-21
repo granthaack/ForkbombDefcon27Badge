@@ -26,7 +26,7 @@ event_loop.o: /home/ghaack/esp/esp-idf/components/esp_event/event_loop.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/esp32/include/esp_wifi.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -190,7 +190,7 @@ event_loop.o: /home/ghaack/esp/esp-idf/components/esp_event/event_loop.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -30,7 +30,7 @@ fast_crypto_ops.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -128,7 +128,7 @@ fast_crypto_ops.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 

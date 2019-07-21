@@ -23,7 +23,7 @@ phy_init.o: /home/ghaack/esp/esp-idf/components/esp32/phy_init.c \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/rtc.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
@@ -198,7 +198,7 @@ phy_init.o: /home/ghaack/esp/esp-idf/components/esp32/phy_init.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 

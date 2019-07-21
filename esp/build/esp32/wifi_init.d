@@ -22,7 +22,7 @@ wifi_init.o: /home/ghaack/esp/esp-idf/components/esp32/wifi_init.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
@@ -181,7 +181,7 @@ wifi_init.o: /home/ghaack/esp/esp-idf/components/esp32/wifi_init.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h:
 

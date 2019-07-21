@@ -3,15 +3,10 @@ src/nvs_storage.o: \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_storage.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h \
+ /home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/stdio.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
- /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/compressed_enum_table.hpp \
  /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_page.hpp \
@@ -26,23 +21,13 @@ src/nvs_storage.o: \
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
+/home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/ghaack/projects/cmpe195/thermal_cam/build/include/sdkconfig.h:
+
 /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-/home/ghaack/esp/esp-idf/components/newlib/include/stdio.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/sys/stdio.h:
-
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/alloca.h:
-
-/home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 
 /home/ghaack/esp/esp-idf/components/nvs_flash/src/nvs_types.hpp:
 

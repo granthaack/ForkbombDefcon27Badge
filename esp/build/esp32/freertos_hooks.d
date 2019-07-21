@@ -20,7 +20,7 @@ freertos_hooks.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/alloca.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/ghaack/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /home/ghaack/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -121,7 +121,7 @@ freertos_hooks.o: \
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

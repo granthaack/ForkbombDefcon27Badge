@@ -18,7 +18,7 @@ ipc.o: /home/ghaack/esp/esp-idf/components/esp32/ipc.c \
  /home/ghaack/esp/esp-idf/components/newlib/include/string.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/assert.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
@@ -121,7 +121,7 @@ ipc.o: /home/ghaack/esp/esp-idf/components/esp32/ipc.c \
 
 /home/ghaack/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -16,7 +16,7 @@ src/secure_boot.o: \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -98,7 +98,7 @@ src/secure_boot.o: \
 
 /home/ghaack/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/esp_common/include/esp_types.h:
 

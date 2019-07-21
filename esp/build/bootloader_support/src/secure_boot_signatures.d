@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/ghaack/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -48,7 +48,7 @@ src/secure_boot_signatures.o: \
  /home/ghaack/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/limits.h
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

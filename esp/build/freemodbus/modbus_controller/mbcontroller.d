@@ -18,7 +18,7 @@ modbus_controller/mbcontroller.o: \
  /home/ghaack/esp/esp-idf/components/log/include/esp_log.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/stdint.h \
  /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h \
+ /home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h \
  /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
  /home/ghaack/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/ghaack/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -146,7 +146,7 @@ modbus_controller/mbcontroller.o: \
 
 /home/ghaack/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/ghaack/projects/ForkbombDefcon27Badge/esp/build/include/sdkconfig.h:
+/home/ghaack/school/cmpe195/thermal_cam/build/include/sdkconfig.h:
 
 /home/ghaack/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 

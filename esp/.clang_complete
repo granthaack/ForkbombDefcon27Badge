@@ -1,7 +1,0 @@
--include /home/ghaack/esp/esp-idf/components/freertos/include/
--include /home/ghaack/esp/esp-idf/components/esp32/include
--include /home/ghaack/esp/esp-idf/components/newlib/include
--include /home/ghaack/esp/esp-idf/components/freertos/include
--include /home/ghaack/esp/esp-idf/components/nvs_flash/include
--include /home/ghaack/esp/esp-idf/components/driver/include
--include /home/ghaack/esp/esp-idf/components/log/include
